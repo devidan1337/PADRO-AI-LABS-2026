@@ -11,10 +11,14 @@
             "id": "553b8aee80b7fd90",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "HIGH-VALUE-LESSONS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HIGH-VALUE-LESSONS"
             }
           }
         ]
@@ -176,6 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "553b8aee80b7fd90",
-  "lastOpenFiles": []
+  "active": "2a1d3a0e5ee4416b",
+  "lastOpenFiles": [
+    "CURRENT-STANDARDS.md",
+    "CURRENT-ARCHITECTURE.md",
+    "CURRENT-ROADMAP.md",
+    "PADRO-AI-LABS.md",
+    "LESSONS-LEARNED.md"
+  ]
 }

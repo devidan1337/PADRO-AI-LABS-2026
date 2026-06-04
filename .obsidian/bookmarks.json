@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1780609844042,
+      "path": "PADRO-AI-LABS.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1780609867672,
+      "path": "CURRENT-ROADMAP.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1780609876176,
+      "path": "CURRENT-ARCHITECTURE.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1780609879987,
+      "path": "CURRENT-STANDARDS.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1780609886150,
+      "path": "HIGH-VALUE-LESSONS.md"
+    }
+  ]
+}
