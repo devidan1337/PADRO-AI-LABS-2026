@@ -1,38 +1,143 @@
 # NEXT ACTIONS
 
-## Current Phase
+## Current Program State
 
-Phase 3 - Security Foundation
+Current Active Lab:
 
-## Current Lab
+Lab 04 - Program Brain & Knowledge Architecture
+
+Last Completed Lab:
 
 Lab 03 - Authority, Secrets & Trust Boundaries
 
-## Current Objective
+Current Repository Tag:
 
-Define authority, secrets, trust boundaries, approval paths, logging requirements, and revocation methods for PADRO-AI-LABS components.
+v0.3-security-governance
 
-## Next Deliverables
+---
 
-1. AUTHORITY-CONTRACT.md
-2. SECRETS-STANDARD.md
-3. ENVIRONMENT-STANDARD.md
-4. THREAT-MODEL.md
-5. LAB03-REPORT.md
+# Immediate Objectives
 
-## Current Blockers
+## Objective 1
 
-None
+Create Program Brain architecture.
 
-## Success Criteria
+Deliverable:
 
-- No secrets committed to Git
-- Direct and indirect authority documented
-- Approval triggers documented
-- Logging requirements documented
-- Revocation methods documented
-- Blast radius identified per component
+* knowledge/PROGRAM-BRAIN-ARCHITECTURE.md
 
-## Next Commit Target
+Status:
 
-Initialize Lab03 authority and trust boundary model.
+IN PROGRESS
+
+---
+
+## Objective 2
+
+Define knowledge ingestion standards.
+
+Deliverable:
+
+* knowledge/KNOWLEDGE-INGESTION-STANDARD.md
+
+Status:
+
+PENDING
+
+---
+
+## Objective 3
+
+Define retrieval standards.
+
+Deliverable:
+
+* knowledge/RETRIEVAL-STANDARD.md
+
+Status:
+
+PENDING
+
+---
+
+## Objective 4
+
+Design Obsidian integration.
+
+Deliverable:
+
+* knowledge/OBSIDIAN-INTEGRATION.md
+
+Status:
+
+PENDING
+
+---
+
+## Objective 5
+
+Design Hermes memory architecture.
+
+Deliverable:
+
+* knowledge/HERMES-MEMORY-ARCHITECTURE.md
+
+Status:
+
+PENDING
+
+---
+
+# Current Questions
+
+Lab 04 must answer:
+
+1. What information should be remembered?
+2. What information should never be remembered?
+3. How should knowledge be categorized?
+4. How should knowledge be retrieved?
+5. How should Hermes consume knowledge?
+6. How should Obsidian integrate with Program Brain?
+7. How should future RAG systems interact with stored knowledge?
+
+---
+
+# Completion Criteria
+
+Lab 04 is complete when:
+
+* Program Brain architecture exists.
+* Knowledge ingestion standards exist.
+* Retrieval standards exist.
+* Obsidian integration design exists.
+* Hermes memory architecture exists.
+* LAB04-REPORT.md exists.
+* Lessons learned are documented.
+* Repository changes are committed and pushed.
+
+---
+
+# Current Working Principle
+
+Governance before automation.
+
+Architecture before implementation.
+
+Knowledge before retrieval.
+
+Documentation before scaling.
+
+---
+
+# After Lab 04
+
+Planned Next Lab:
+
+Lab 05 - Secure Remote Operations
+
+Expected Focus:
+
+* Tailscale
+* Remote administration
+* Device trust model
+* Secure remote access
