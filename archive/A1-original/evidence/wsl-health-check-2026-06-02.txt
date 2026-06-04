@@ -1,0 +1,59 @@
+======================================
+PADRO-AI-LABS WSL HEALTH CHECK
+======================================
+
+DATE:
+Tue Jun  2 21:42:02 EDT 2026
+
+HOST:
+DESKTOP-27TFO05
+
+UPTIME:
+ 21:42:02 up  1:42,  1 user,  load average: 0.00, 0.00, 0.00
+
+CPU THREADS:
+24
+
+MEMORY:
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.4Gi        13Gi       3.5Mi       380Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+TOP MEMORY CONSUMERS:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dev         2338  0.9  3.4 45357752 560816 pts/3 Sl+  20:11   0:52 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node --dns-result-order=ipv4first /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+dev         1909  0.2  1.1 878780 183280 pts/2   Sl+  20:10   0:12 /home/dev/.hermes/hermes-agent/venv/bin/python3 /home/dev/.hermes/hermes-agent/venv/bin/hermes
+dev         2001  0.0  0.7 11842756 115420 pts/3 Sl+  20:11   0:03 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=866481088-4240308831-413940860-798451821 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+dev         2015  0.0  0.3 1020452 62416 pts/4   Ssl+ 20:11   0:00 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42357 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+dev         2051  0.0  0.3 1264548 62260 pts/3   Sl+  20:11   0:01 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/bootstrap-fork --type=fileWatcher
+dev         2035  0.0  0.3 1016152 57084 pts/5   Ssl+ 20:11   0:00 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42357 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root         226  0.0  0.1 123448 32276 ?        Ssl  19:59   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         113  0.0  0.1  43936 29468 ?        Ss   19:59   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          44  0.0  0.1  50380 16500 ?        S<s  19:59   0:00 /usr/lib/systemd/systemd-journald
+
+DISK:
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.114.1-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         931G  414G  518G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  7.5G  949G   1% /
+none            7.8G   44K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.8M  7.8G   1% /init
+none            7.8G  560K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   80K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   80K  7.8G   1% /mnt/wslg/doc
+C:\             931G  414G  518G  45% /mnt/c
+G:\             3.7T  2.7T  1.1T  73% /mnt/g
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.8G  8.0K  7.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.6G   12K  1.6G   1% /run/user/1000
+
+KERNEL:
+Linux DESKTOP-27TFO05 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025 x86_64 GNU/Linux
+
+DONE.
