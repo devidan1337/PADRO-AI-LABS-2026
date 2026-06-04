@@ -1,0 +1,41 @@
+                     Dan
+                      │
+                      ▼
+
+                  ChatGPT
+               Architecture
+
+                      │
+                      ▼
+
+                   Codex
+             Implementation
+
+                      │
+                      ▼
+
+                Claude Code
+                   Review
+
+                      │
+                      ▼
+
+                     Dan
+                  Approval
+
+                      │
+                      ▼
+
+                   Hermes
+                 Operations
+
+                      │
+                      ▼
+
+             PADRO-AI-LABS Repo
+
+                      │
+      ┌───────────────┼───────────────┐
+      ▼               ▼               ▼
+
+   Reports         Scripts         Memory
