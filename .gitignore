@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+*.secret
+*.key
+
+# Claude
+.claude/
+
+# Hermes
+.hermes/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# VS Code local settings
+.vscode/
+
+# OS
+.DS_Store
+
+# Temporary
+tmp/
+cache/
+
+# Large generated logs
+logs/*.tmp

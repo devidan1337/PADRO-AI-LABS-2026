@@ -1,0 +1,694 @@
+Script started on 2026-06-02 20:46:31-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="124" LINES="33"]
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ lablog note l[Kuse[K[K[Knote "use it like this"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lNote added to DAILY-LOG.md
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ lablog note note "log one command"
+[?2004lNote added to DAILY-LOG.md
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ lablog status
+[?2004lPADRO-AI-LABS logging status
+Root: /home/dev/projects/PADRO-AI-LABS-2026
+Logs:
+total 12K
+drwxr-xr-x  2 dev dev 4.0K Jun  2 20:46 .
+drwxr-xr-x 15 dev dev 4.0K Jun  2 20:42 ..
+-rw-r--r--  1 dev dev  702 Jun  2 20:50 2026-06-02-lab01-session-204631.log
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ nano [7m2026-06-02-lab01-session-204631.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2026-06-02-lab01-session-204631.log
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1                                2026-06-02-lab01-session-204631.log                                         [1;123H(B[m[32d(B[0;7m^G(B[m Help[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[32;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ cat[7m2026-06-02-lab01-session-204631.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2026-06-02-lab01-session-204631.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [7m2026-06-02-lab01-session-204631.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2026-06-02-lab01-session-204631.log
+[?2004lcat: 2026-06-02-lab01-session-204631.log: No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ free -h [K
+[?2004l               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.4Gi        13Gi       3.5Mi       373Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ nproc [K
+[?2004l24
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ proc[K[K[K[Kcat /proc/meminfgoi[K[K[Ko | head
+[?2004lMemTotal:       16242724 kB
+MemFree:        14592928 kB
+MemAvailable:   14762976 kB
+Buffers:           16892 kB
+Cached:           321696 kB
+SwapCached:            0 kB
+Active:           127864 kB
+Inactive:        1079844 kB
+Active(anon):       2632 kB
+Inactive(anon):   870124 kB
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ uname -qw[K[Ka
+[?2004lLinux DESKTOP-27TFO05 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025 x86_64 GNU/Linux
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ lsb_release -a
+[?2004lNo LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 26.04 LTS
+Release:	26.04
+Codename:	resolute
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ df -h
+[?2004lFilesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.114.1-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         931G  413G  519G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  7.5G  949G   1% /
+none            7.8G   40K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.8M  7.8G   1% /init
+none            7.8G  556K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   80K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   80K  7.8G   1% /mnt/wslg/doc
+C:\             931G  413G  519G  45% /mnt/c
+G:\             3.7T  2.7T  1.1T  73% /mnt/g
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.8G  8.0K  7.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.6G   12K  1.6G   1% /run/user/1000
+[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ [7mmkdir -p ~/projects/PADRO-AI-LABS-2026-A1[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ~/projects/PADRO-AI-LABS-2026-A1
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026-A1[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/projects/PADRO-AI-LABS-2026-A1
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch PROGRAM-BRAIN.md[27mtouch PROGRAM-BRAIN.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ nano PROGRAM-BRAIN.md
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;56H(B[0;7m[ Reading... ](B[m[31;55H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                                         PROGRAM-BRAIN.md                                                   [1;123H(B[m[32d(B[0;7m^G(B[m Help[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[32;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[31d[K[1;75H(B[0;7m*[123G(B[m[2d(B[0;1m[36m├── PROGRAM-BRAIN.md[3d├── ROADMAP.md[4d├── LAB-INDEX.md[5d├── DAILY-LOG.md[6d├── scripts/[7d├── labs/[8d│   └── LAB-01-WSL-BASELINE/[9d├── reports/[10d├── evidence/[11d├── screenshots/[12d├── blog-drafts/[13d├── prompts/[14d├── architecture/[15d├── memory/[16d└── lessons-learned/[39m(B[m[?12l[?25h[?25l[?12l[?25h[15;12H[?25l[?12l[?25h[14;18H[?25l[?12l[?25h[13;13H[?25l[?12l[?25h[12;17H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[8;21H[?25l[?12l[?25h[7;10H[?25l[?12l[?25h[6;13H[?25l[?12l[?25h[5;17H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[36m├── README.md[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[36mPADRO-AI-LABS-2026-A1/[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[36m```txt[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m## Core Folder Structure[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mMake Hermes aware of goals, context, and next actions[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mBuild portfolio artifacts from every lab[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mKeep security boundaries clear[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mPrefer reversible changes[21G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mCapture evidence[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mScript repeated actions[21G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mDocument before optimization[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mBaseline before automation[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m## Operating Principles[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m7. [39m(B[mLab/report/blog scaffolding[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m6. [39m(B[mMarkdown documentation system[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m5. [39m(B[mEvidence capture workflow[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m4. [39m(B[mScripted workstation health checks[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m3. [39m(B[mGit repository foundation[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m2. [39m(B[mHermes-localized memory structure[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m1. [39m(B[mSecure WSL2 Ubuntu baseline[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HIt includes:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HDeliverable 1 is the command center that makes all future labs repeatable.[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Deliverable 1[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HB influences how A is built.[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HA is the first concrete deliverable.[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HC governs A and B.[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mB = Automation-heavy execution path with scripted setup, logging, and repeatable build habits[2;21H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mA = Deliverable 1 / Secure WSL2 AI Engineering Workstation Baseline[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mC = Meta-Architecture / Program Operating System[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThis program uses a mirror architecture:[2;21H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Strategic Model[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HBuild a secure, portable, portfolio-ready AI engineering workstation and lab system focused on WSL2, Hermes, Codex, telecom(B[0;7m>[2;21H(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Prime Directive[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m# PADRO-AI-LABS-2026-A1 — Program Brain[2;21H[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4;19H[?25l[?12l[?25h[5drt[?25l[?12l[?25h[6d[?25l[?12l[?25h[7;19H[?25l[?12l[?25h[8da [?25l[?12l[?25h[9d[?25l[?12l[?25h[10;21H[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14;19H[?25l[?12l[?25h[15dcr[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18;17H[?25l[?12l[?25h[19;21H[?25l[?12l[?25h[20d[?25l[?12l[?25h[21;13H[?25l[?12l[?25h[22d[?25l[?12l[?25h[23;21H[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[33m## Operating Principles[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mBaseline before automation[30;21H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mDocument before optimization[30;21H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mScript repeated actions[21G[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mCapture evidence[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mPrefer reversible changes[21G[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mKeep security boundaries clear[30;21H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mBuild portfolio artifacts from every lab[30;21H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[35m- [39m(B[mMake Hermes aware of goals, context, and next actions[30;21H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[33m## Core Folder Structure[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m```txt[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36mPADRO-AI-LABS-2026-A1/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── README.md[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── PROGRAM-BRAIN.md[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── ROADMAP.md[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── LAB-INDEX.md[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── DAILY-LOG.md[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── scripts/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── labs/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m│   └── LAB-01-WSL-BASELINE/[30;21H[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── reports/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── evidence/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── screenshots/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── blog-drafts/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── prompts/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── architecture/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m├── memory/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H(B[0;1m[36m└── lessons-learned/[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[32;16H         (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[32;73H(B[0;7mM-B(B[m Backup File         (B[0;7m^T(B[m Browse[K[33;2H(B[0;7mC(B[m Cancel[16G         (B[0;7mM-M(B[m Mac Format          (B[0;7mM-P(B[m Prepend             (B[0;7m^Q(B[m Discard buffer[K[32;106H[A(B[0;7mWrite to File: PROGRAM-BRAIN.md                                                                                             [31;32H(B[m[?12l[?25h[?25l[31;55H[1K (B[0;7m[ Writing... ](B[m[K[1;75H(B[0;7m [123G(B[m[31;54H(B[0;7m[ Wrote 58 lines ](B[m[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[?12l[?25h[30d[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7m```bash[27m
+[7mmkdir -p scripts labs/LAB-01-WSL-BASELINE reports evidence screenshots blog-drafts prompts architecture memory lessons-learn[27m[7me[27m[7md [27m
+
+[7mtouch README.md ROADMAP.md LAB-INDEX.md DAILY-LOG.md[27m
+[7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md[27m
+[7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27m
+[7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md[27m
+
+[7mtree[27m[A[A[A[A[A[A[A[A[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ ```bash
+mkdir -p scripts labs/LAB-01-WSL-BASELINE reports evidence screenshots blog-drafts prompts architecture memory lessons-learned
+
+touch README.md ROADMAP.md LAB-INDEX.md DAILY-LOG.md
+touch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md
+touch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+touch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md
+
+tree
+[?2004l[?2004h> 
+[?2004l[?2004h> [7mcd ~/projects/PADRO-AI-LABS-2026-A1[27m[C[Ccd ~/projects/PADRO-AI-LABS-2026-A1
+[?2004l[?2004h> ls
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026-A1[27m
+[7mtouch architecture/META-ARCHITECTURE-v0.2.md[27m
+[7mtouch FIELD-NOTES.md[27m[A[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cd ~/projects/PADRO-AI-LABS-2026-A1
+touch architecture/META-ARCHITECTURE-v0.2.md
+touch FIELD-NOTES.md
+[?2004ltouch: cannot touch 'architecture/META-ARCHITECTURE-v0.2.md': No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ free -h
+[?2004l               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.4Gi        13Gi       3.5Mi       375Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ nproc
+[?2004l24
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cat proc/freemem | head
+[?2004lcat: proc/freemem: No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ tree
+[?2004l[01;34m.[0m
+├── FIELD-NOTES.md
+└── PROGRAM-BRAIN.md
+
+1 directory, 2 files
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026-A1[27m
+[7mtouch architecture/META-ARCHITECTURE-v0.2.md[27m
+[7mtouch FIELD-NOTES.md[27m[A[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cd ~/projects/PADRO-AI-LABS-2026-A1
+touch architecture/META-ARCHITECTURE-v0.2.md
+[1Ptouch FIELD-NOTES.m[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano [7mMETA-ARCHITECTURE-v0.2.md[27mMETA-ARCHITECTURE-v0.2.md
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1                                     META-ARCHITECTURE-v0.2.md                                              [1;123H(B[m[32d(B[0;7m^G(B[m Help[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[32;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[31d[K[1;80H(B[0;7m*[123G(B[m[2d(B[0;1m[35m- [39m(B[mDECISION-LOG.md[3d(B[0;1m[35m- [39m(B[mHERMES-INSTRUCTIONS.md[5dPurpose:[6dGive Hermes durable local context without relying only on chat memory.[8d(B[0;1m[33m---[10d## Update Flow[12d### During Work[13d[39m(B[mWrite minimal notes in:[15d(B[0;1m[36m```txt[16dFIELD-NOTES.md[39m(B[m[?12l[?25h[?25l[?12l[?25h[15;7H[?25l[?12l[?25h[A[?25l[?12l[?25h[13;15H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[10;15H[?25l[?12l[?25h[A[?25l[?12l[?25h[8;4H[?25l[?12l[?25h[A[?25l[?12l[?25h[6;15H[?25l[?12l[?25h[5;9H[?25l[?12l[?25h[A[?25l[?12l[?25h[3;15H[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mACTIVE-DELIVERABLE.md[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mPROGRAM-CONTEXT.md[15G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HExamples:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HStores Hermes-localized context files.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m### memory/[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HBlog drafts should be less operationally sensitive than internal reports.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HRule:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HTranslate technical labs into readable portfolio/blog posts.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HPurpose:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores public-facing writeups.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m### blog-drafts/[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUseful prompts become assets.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HRule:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mtroubleshooting prompts[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mevidence summarization prompts[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlab report generation prompts[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mHermes memory refresh prompts[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HExamples:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores reusable prompts.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### prompts/[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HEvidence should support claims made in reports.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HRule:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mbefore/after outputs[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mproof files[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mexported configs[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mterminal logs[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mscreenshots[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HGlobal evidence folder.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### evidence/[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HEvery repeated manual action is a script candidate.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HRule:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mreport helpers[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mvalidation scripts[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlogging scripts[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[msetup scripts[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mhealth checks[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HExamples:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores reusable automation.[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m### scripts/[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mafter major failure/recovery[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mafter lab completion[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mhow this maps to GRC/OSINT/DFIR/AI engineering[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcareer relevance[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mtroubleshooting insights[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mmistakes[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mconcepts learned[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HThe learning reflection.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### labs/LAB-XX-*/LAB-XX-LESSONS-LEARNED.md[2;15H[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mwhenever proof is captured[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mverification results[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mtimestamps[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mconfig snippets[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mhashes if applicable[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mscreenshots[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcommand outputs[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe evidence record.[15G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m### labs/LAB-XX-*/LAB-XX-EVIDENCE.md[2;15H[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mat lab completion[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mafter checkpoints[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mnext steps[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlessons learned[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mremediation[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[missues[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mfindings[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mvalidation[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mimplementation[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mmethodology[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[menvironment[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mobjective[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe polished technical report.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### labs/LAB-XX-*/LAB-XX-REPORT.md[2;15H[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mwhenever something important happens[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mduring work[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HUpdate:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mno polishing required[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mshort is preferred[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mmessy is acceptable[15G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HRules:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mpreferences[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcommand outputs worth saving[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mobservations[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mquestions[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[merrors[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mrough thoughts[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HFast scratchpad notes during execution.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### FIELD-NOTES.md[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mafter each work session[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HUpdate:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mnext action[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mdecisions made[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[missues encountered[15G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcommands run[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mwork completed[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mdate[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HA chronological execution log.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### DAILY-LOG.md[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[ma lab is completed[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[ma lab changes status[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[ma lab is created[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate when:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlinked reports[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mkey tools[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mstatus[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlab title[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlab number[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HThe table of contents for all labs.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### LAB-INDEX.md[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mdeliverables are completed[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mpriorities shift[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mnew labs are added[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate when:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mfuture expansion ideas[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcertification/career alignment[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mskill progression[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlab progression[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mdeliverable sequence[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe ordered path of deliverables.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### ROADMAP.md[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mmajor strategic decision is made[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[ma deliverable is completed[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mprogram direction changes[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HUpdate when:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mlong-term roadmap anchors[2;15H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mcurrent next action[15G[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[moperating principles[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mactive deliverable[15G[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mstrategic goals[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mprime directive[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HStores:[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe master program memory.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m### PROGRAM-BRAIN.md[15G[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m## File Role Map[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m---[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe assistant/Hermes system should transform raw notes into structured reports.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1HThe operator should stay in flow.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HWork should be captured lightly during execution and polished later.[2;15H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Core Rule[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HThis document defines how PADRO-AI-LABS-2026-A1 stores knowledge, captures evidence, and turns hands-on work into portfolio(B[0;7m>[2;15H(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Purpose[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m# Meta-Architecture v0.2 — File Roles and Update Rules[2;15H[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4;11H[?25l[?12l[?25h[5;15H[?25l[?12l[?25h[6d[?25l[?12l[?25h[7;13H[?25l[?12l[?25h[8dbe[?25l[?12l[?25h[9d[?25l[?12l[?25h[10;15H[?25l[32;16H         (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[32;73H(B[0;7mM-B(B[m Backup File         (B[0;7m^T(B[m Browse[K[33;2H(B[0;7mC(B[m Cancel[16G         (B[0;7mM-M(B[m Mac Format          (B[0;7mM-P(B[m Prepend             (B[0;7m^Q(B[m Discard buffer[K[32;106H[A(B[0;7mWrite to File: META-ARCHITECTURE-v0.2.md                                                                                    [31;41H(B[m[?12l[?25h[?25l[31;55H[1K (B[0;7m[ Writing... ](B[m[K[1;80H(B[0;7m [123G(B[m[31;53H(B[0;7m[ Wrote 234 lines ](B[m[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[?12l[?25h[10;15H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cat META-ARCHITECTURE-0.2[K[K[Kv0.2.md
+[?2004l# Meta-Architecture v0.2 — File Roles and Update Rules
+
+## Purpose
+This document defines how PADRO-AI-LABS-2026-A1 stores knowledge, captures evidence, and turns hands-on work into portfolio-ready deliverables.
+
+## Core Rule
+Work should be captured lightly during execution and polished later.
+
+The operator should stay in flow.
+The assistant/Hermes system should transform raw notes into structured reports.
+
+---
+
+## File Role Map
+
+### PROGRAM-BRAIN.md
+The master program memory.
+
+Stores:
+- prime directive
+- strategic goals
+- active deliverable
+- operating principles
+- current next action
+- long-term roadmap anchors
+
+Update when:
+- program direction changes
+- a deliverable is completed
+- major strategic decision is made
+
+---
+
+### ROADMAP.md
+The ordered path of deliverables.
+
+Stores:
+- deliverable sequence
+- lab progression
+- skill progression
+- certification/career alignment
+- future expansion ideas
+
+Update when:
+- new labs are added
+- priorities shift
+- deliverables are completed
+
+---
+
+### LAB-INDEX.md
+The table of contents for all labs.
+
+Stores:
+- lab number
+- lab title
+- status
+- key tools
+- linked reports
+
+Update when:
+- a lab is created
+- a lab changes status
+- a lab is completed
+
+---
+
+### DAILY-LOG.md
+A chronological execution log.
+
+Stores:
+- date
+- work completed
+- commands run
+- issues encountered
+- decisions made
+- next action
+
+Update:
+- after each work session
+
+---
+
+### FIELD-NOTES.md
+Fast scratchpad notes during execution.
+
+Stores:
+- rough thoughts
+- errors
+- questions
+- observations
+- command outputs worth saving
+- preferences
+
+Rules:
+- messy is acceptable
+- short is preferred
+- no polishing required
+
+Update:
+- during work
+- whenever something important happens
+
+---
+
+### labs/LAB-XX-*/LAB-XX-REPORT.md
+The polished technical report.
+
+Stores:
+- objective
+- environment
+- methodology
+- implementation
+- validation
+- findings
+- issues
+- remediation
+- lessons learned
+- next steps
+
+Update:
+- after checkpoints
+- at lab completion
+
+---
+
+### labs/LAB-XX-*/LAB-XX-EVIDENCE.md
+The evidence record.
+
+Stores:
+- command outputs
+- screenshots
+- hashes if applicable
+- config snippets
+- timestamps
+- verification results
+
+Update:
+- whenever proof is captured
+
+---
+
+### labs/LAB-XX-*/LAB-XX-LESSONS-LEARNED.md
+The learning reflection.
+
+Stores:
+- concepts learned
+- mistakes
+- troubleshooting insights
+- career relevance
+- how this maps to GRC/OSINT/DFIR/AI engineering
+
+Update:
+- after lab completion
+- after major failure/recovery
+
+---
+
+### scripts/
+Stores reusable automation.
+
+Examples:
+- health checks
+- setup scripts
+- logging scripts
+- validation scripts
+- report helpers
+
+Rule:
+Every repeated manual action is a script candidate.
+
+---
+
+### evidence/
+Global evidence folder.
+
+Stores:
+- screenshots
+- terminal logs
+- exported configs
+- proof files
+- before/after outputs
+
+Rule:
+Evidence should support claims made in reports.
+
+---
+
+### prompts/
+Stores reusable prompts.
+
+Examples:
+- Hermes memory refresh prompts
+- lab report generation prompts
+- evidence summarization prompts
+- troubleshooting prompts
+
+Rule:
+Useful prompts become assets.
+
+---
+
+### blog-drafts/
+Stores public-facing writeups.
+
+Purpose:
+Translate technical labs into readable portfolio/blog posts.
+
+Rule:
+Blog drafts should be less operationally sensitive than internal reports.
+
+---
+
+### memory/
+Stores Hermes-localized context files.
+
+Examples:
+- PROGRAM-CONTEXT.md
+- ACTIVE-DELIVERABLE.md
+- DECISION-LOG.md
+- HERMES-INSTRUCTIONS.md
+
+Purpose:
+Give Hermes durable local context without relying only on chat memory.
+
+---
+
+## Update Flow
+
+### During Work
+Write minimal notes in:
+
+```txt
+FIELD-NOTES.md
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ ls
+[?2004lFIELD-NOTES.md  META-ARCHITECTURE-v0.2.md  PROGRAM-BRAIN.md
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cat [7mROGRAM-BRAIN.md[27m[16@ROGRAM-BRAIN.md[7mP[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16@PROGRAM-BRAIN.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PPROGRAM-BRAIN.m[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mPROGRAM-BRAIN.md[27mPROGRAM-BRAIN.md
+[?2004l# PADRO-AI-LABS-2026-A1 — Program Brain
+
+## Prime Directive
+Build a secure, portable, portfolio-ready AI engineering workstation and lab system focused on WSL2, Hermes, Codex, telecom automation, OSINT, GRC, DFIR, and reproducible proof-of-concept documentation.
+
+## Strategic Model
+This program uses a mirror architecture:
+
+- C = Meta-Architecture / Program Operating System
+- A = Deliverable 1 / Secure WSL2 AI Engineering Workstation Baseline
+- B = Automation-heavy execution path with scripted setup, logging, and repeatable build habits
+
+C governs A and B.
+A is the first concrete deliverable.
+B influences how A is built.
+
+## Deliverable 1
+Deliverable 1 is the command center that makes all future labs repeatable.
+
+It includes:
+
+1. Secure WSL2 Ubuntu baseline
+2. Hermes-localized memory structure
+3. Git repository foundation
+4. Scripted workstation health checks
+5. Evidence capture workflow
+6. Markdown documentation system
+7. Lab/report/blog scaffolding
+
+## Operating Principles
+- Baseline before automation
+- Document before optimization
+- Script repeated actions
+- Capture evidence
+- Prefer reversible changes
+- Keep security boundaries clear
+- Build portfolio artifacts from every lab
+- Make Hermes aware of goals, context, and next actions
+
+## Core Folder Structure
+```txt
+PADRO-AI-LABS-2026-A1/
+├── README.md
+├── PROGRAM-BRAIN.md
+├── ROADMAP.md
+├── LAB-INDEX.md
+├── DAILY-LOG.md
+├── scripts/
+├── labs/
+│   └── LAB-01-WSL-BASELINE/
+├── reports/
+├── evidence/
+├── screenshots/
+├── blog-drafts/
+├── prompts/
+├── architecture/
+├── memory/
+└── lessons-learned/
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026-A1[27mcd ~/projects/PADRO-AI-LABS-2026-A1
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ pwd
+[?2004l/home/dev/projects/PADRO-AI-LABS-2026-A1
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mmkdir -p labs/LAB-01-WSL-BASELINE[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p labs/LAB-01-WSL-BASELINE
+[A
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch blog-drafts/BLOG-LAB-01.md[27mtouch blog-drafts/BLOG-LAB-01.md
+[?2004ltouch: cannot touch 'blog-drafts/BLOG-LAB-01.md': No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mmkdir -p \[27mmkdir -p \
+[?2004l[?2004h> [7mscripts \[27m[C[Cscripts \[7mscripts \[27m
+[7mlabs/LAB-01-WSL-BASELINE \[27m
+[7mreports \[27m
+[7mevidence \[27m
+[7mscreenshots \[27m
+[7mblog-drafts \[27m
+[7mprompts \[27m
+[7marchitecture \[27m
+[7mmemory \[27m
+[7mlessons-learned[27m[A[A[A[A[A[A[A[A[Ascripts \
+labs/LAB-01-WSL-BASELINE \
+reports \
+evidence \
+screenshots \
+blog-drafts \
+prompts \
+architecture \
+memory \
+lessons-learned
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ tre
+[?2004lCommand 'tre' not found, but can be installed with:
+sudo apt install tre-command
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ tree
+[?2004l[01;34m.[0m
+├── FIELD-NOTES.md
+├── META-ARCHITECTURE-v0.2.md
+├── PROGRAM-BRAIN.md
+├── [01;34marchitecture[0m
+├── [01;34mblog-drafts[0m
+├── [01;34mevidence[0m
+├── [01;34mlabs[0m
+│   └── [01;34mLAB-01-WSL-BASELINE[0m
+│       ├── LAB-01-EVIDENCE.md
+│       ├── LAB-01-LESSONS-LEARNED.md
+│       └── LAB-01-REPORT.md
+├── [01;34mlessons-learned[0m
+├── [01;34mmemory[0m
+├── [01;34mprompts[0m
+├── [01;34mreports[0m
+├── [01;34mscreenshots[0m
+└── [01;34mscripts[0m
+
+12 directories, 6 files
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch blog-drafts/BLOG-LAB-01.md[27mtouch blog-drafts/BLOG-LAB-01.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtree[27mtree
+[?2004l[01;34m.[0m
+├── FIELD-NOTES.md
+├── META-ARCHITECTURE-v0.2.md
+├── PROGRAM-BRAIN.md
+├── [01;34marchitecture[0m
+├── [01;34mblog-drafts[0m
+│   └── BLOG-LAB-01.md
+├── [01;34mevidence[0m
+├── [01;34mlabs[0m
+│   └── [01;34mLAB-01-WSL-BASELINE[0m
+│       ├── LAB-01-EVIDENCE.md
+│       ├── LAB-01-LESSONS-LEARNED.md
+│       └── LAB-01-REPORT.md
+├── [01;34mlessons-learned[0m
+├── [01;34mmemory[0m
+├── [01;34mprompts[0m
+├── [01;34mreports[0m
+├── [01;34mscreenshots[0m
+└── [01;34mscripts[0m
+
+12 directories, 7 files
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtree[27m[1Ptre[K[K[K[7mscripts/wsl-health-check.sh[27mscripts/wsl-health-check.sh
+[?2004lbash: scripts/wsl-health-check.sh: No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mmv blog-drafts blog_drafts 2>/dev/null[27mmv blog-drafts blog_drafts 2>/dev/null
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mmv lessons-learned lessons_learned 2>/dev/null[27mmv lessons-learned lessons_learned 2>/dev/null
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mmkdir -p \[27m
+[7mscripts \[27m
+[7mlabs/LAB-01-WSL-BASELINE \[27m
+[7mreports \[27m
+[7mevidence \[27m
+[7mscreenshots \[27m
+[7mblog_drafts \[27m
+[7mprompts \[27m
+[7marchitecture \[27m
+[7mmemory \[27m
+[7mlessons_learned[27m[A[A[A[A[A[A[A[A[A[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ mkdir -p \
+scripts \
+labs/LAB-01-WSL-BASELINE \
+reports \
+evidence \
+screenshots \
+blog_drafts \
+prompts \
+architecture \
+memory \
+lessons_learned
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md[27m
+[7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27m
+[7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md[27m
+[7mtouch blog_drafts/BLOG-LAB-01.md[27m
+[7mtouch FIELD-NOTES.md[27m[A[A[A[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ touch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md
+touch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+touch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md
+touch blog_drafts/BLOG-LAB-01.md
+touch FIELD-NOTES.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ tree
+[?2004l[01;34m.[0m
+├── FIELD-NOTES.md
+├── META-ARCHITECTURE-v0.2.md
+├── PROGRAM-BRAIN.md
+├── [01;34marchitecture[0m
+├── [01;34mblog_drafts[0m
+│   └── BLOG-LAB-01.md
+├── [01;34mevidence[0m
+├── [01;34mlabs[0m
+│   └── [01;34mLAB-01-WSL-BASELINE[0m
+│       ├── LAB-01-EVIDENCE.md
+│       ├── LAB-01-LESSONS-LEARNED.md
+│       └── LAB-01-REPORT.md
+├── [01;34mlessons_learned[0m
+├── [01;34mmemory[0m
+├── [01;34mprompts[0m
+├── [01;34mreports[0m
+├── [01;34mscreenshots[0m
+└── [01;34mscripts[0m
+
+12 directories, 7 files
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-REPORT.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27mtouch labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch labs/LAB-01-WSL-BASELINE/LAB-01-LESSONS-LEARNED.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch blog_drafts/BLOG-LAB-01.md[27mtouch blog_drafts/BLOG-LAB-01.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtouch FIELD-NOTES.md[27mtouch FIELD-NOTES.md
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mtree[27mtree
+[?2004l[01;34m.[0m
+├── FIELD-NOTES.md
+├── META-ARCHITECTURE-v0.2.md
+├── PROGRAM-BRAIN.md
+├── [01;34marchitecture[0m
+├── [01;34mblog_drafts[0m
+│   └── BLOG-LAB-01.md
+├── [01;34mevidence[0m
+├── [01;34mlabs[0m
+│   └── [01;34mLAB-01-WSL-BASELINE[0m
+│       ├── LAB-01-EVIDENCE.md
+│       ├── LAB-01-LESSONS-LEARNED.md
+│       └── LAB-01-REPORT.md
+├── [01;34mlessons_learned[0m
+├── [01;34mmemory[0m
+├── [01;34mprompts[0m
+├── [01;34mreports[0m
+├── [01;34mscreenshots[0m
+└── [01;34mscripts[0m
+
+12 directories, 7 files
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mnano scripts/wsl-health-check.sh[27mnano scripts/wsl-health-check.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1                                    scripts/wsl-health-check.sh                                             [1;123H(B[m[32d(B[0;7m^G(B[m Help[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[32;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[31d[K[1;81H(B[0;7m*[123G(B[m[2d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[4d[34mecho[39m(B[m (B[0;1m[33m"TOP MEMORY CONSUMERS:"[5d[39m(B[mps aux(B[0;1m[35m --[34msort(B[0m[32m=[39m(B[m-%mem [32m|[39m(B[m (B[0;1m[34mhead[39m(B[m -10[6d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[8d[34mecho[39m(B[m (B[0;1m[33m"DISK:"[9d[39m(B[mdf(B[0;1m[35m -h[10d[34mecho[39m(B[m (B[0;1m[33m""[12d[34mecho[39m(B[m (B[0;1m[33m"KERNEL:"[13d[39m(B[muname(B[0;1m[35m -a[14d[34mecho[39m(B[m (B[0;1m[33m""[16d[34mecho[39m(B[m (B[0;1m[33m"DONE."[39m(B[m[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[14;8H[?25l[?12l[?25h[A[C[?25l[?12l[?25h[12;13H[?25l[?12l[?25h[A[?25l[?12l[?25h[10;8H[?25l[?12l[?25h[A[?25l[?12l[?25h[8;13H[?25l[?12l[?25h[A[?25l[?12l[?25h[6;8H[?25l[?12l[?25h[5;13H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[2;8H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1Hfree(B[0;1m[35m -h[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"MEMORY:"[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1Hnproc[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"CPU THREADS:"[13G[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1Huptime[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"UPTIME:"[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1Hhostname[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"HOST:"[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1Hdate[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"DATE:"[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m""[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"======================================"[2;13H[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"PADRO-AI-LABS WSL HEALTH CHECK"[2;13H[39m(B[m[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"======================================"[2;13H[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H[36m#!/bin/bash[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[32;16H         (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[32;73H(B[0;7mM-B(B[m Backup File         (B[0;7m^T(B[m Browse[K[33;2H(B[0;7mC(B[m Cancel[16G         (B[0;7mM-M(B[m Mac Format          (B[0;7mM-P(B[m Prepend             (B[0;7m^Q(B[m Discard buffer[K[32;106H[A(B[0;7mWrite to File: scripts/wsl-health-check.sh                                                                                  [31;43H(B[m[?12l[?25h[?25l[31;55H[1K (B[0;7m[ Writing... ](B[m[K[1;81H(B[0;7m [123G(B[m[31;54H(B[0;7m[ Wrote 40 lines ](B[m[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;12H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mchmod +x scripts/wsl-health-check.sh[27mchmod +x scripts/wsl-health-check.sh
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7m./scripts/wsl-health-check.sh[27m./scripts/wsl-health-check.sh
+[?2004l======================================
+PADRO-AI-LABS WSL HEALTH CHECK
+======================================
+
+DATE:
+Tue Jun  2 21:40:13 EDT 2026
+
+HOST:
+DESKTOP-27TFO05
+
+UPTIME:
+ 21:40:13 up  1:40,  1 user,  load average: 0.00, 0.00, 0.00
+
+CPU THREADS:
+24
+
+MEMORY:
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.4Gi        13Gi       3.5Mi       379Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+TOP MEMORY CONSUMERS:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dev         2338  0.9  3.4 45357752 560796 pts/3 Sl+  20:11   0:51 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node --dns-result-order=ipv4first /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+dev         1909  0.2  1.1 878780 183280 pts/2   Sl+  20:10   0:11 /home/dev/.hermes/hermes-agent/venv/bin/python3 /home/dev/.hermes/hermes-agent/venv/bin/hermes
+dev         2001  0.0  0.7 11842756 115420 pts/3 Sl+  20:11   0:03 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=866481088-4240308831-413940860-798451821 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+dev         2015  0.0  0.3 1020452 62416 pts/4   Ssl+ 20:11   0:00 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42357 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+dev         2051  0.0  0.3 1264548 62260 pts/3   Sl+  20:11   0:01 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/out/bootstrap-fork --type=fileWatcher
+dev         2035  0.0  0.3 1016152 57084 pts/5   Ssl+ 20:11   0:00 /home/dev/.vscode-server/bin/8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42357 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root         226  0.0  0.1 123448 32276 ?        Ssl  19:59   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         113  0.0  0.1  43936 29468 ?        Ss   19:59   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          44  0.0  0.1  50380 16496 ?        S<s  19:59   0:00 /usr/lib/systemd/systemd-journald
+
+DISK:
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.114.1-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         931G  414G  518G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  7.5G  949G   1% /
+none            7.8G   44K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.8M  7.8G   1% /init
+none            7.8G  560K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   80K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   80K  7.8G   1% /mnt/wslg/doc
+C:\             931G  414G  518G  45% /mnt/c
+G:\             3.7T  2.7T  1.1T  73% /mnt/g
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           7.8G  8.0K  7.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.6G   12K  1.6G   1% /run/user/1000
+
+KERNEL:
+Linux DESKTOP-27TFO05 6.6.114.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Mon Dec  1 20:46:23 UTC 2025 x86_64 GNU/Linux
+
+DONE.
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mwsl-health-check.sh[27mwsl-health-check.sh
+[?2004lwsl-health-check.sh: command not found
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ cat [7mwsl-health-check.sh[27mwsl-health-check.sh
+[?2004lcat: wsl-health-check.sh: No such file or directory
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7m./scripts/wsl-health-check.sh > evidence/wsl-health-check-2026-06-02.t[27m[7mx[27m[7mt[27m[A]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ ./scripts/wsl-health-check.sh > evidence/wsl-health-check-2026-06-02.txt
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mls -lh evidence[27mls -lh evidence
+[?2004ltotal 8.0K
+-rw-r--r-- 1 dev dev 4.5K Jun  2 21:42 wsl-health-check-2026-06-02.txt
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7mnano labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md[27mnano labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md
+[?2004l[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;56H(B[0;7m[ Reading... ](B[m[31;55H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                            labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md                                     [1;123H(B[m[32d(B[0;7m^G(B[m Help[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[32;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[31d[K[1;89H(B[0;7m*[123G(B[m[2d(B[0;1m[35m- [39m(B[mRoot filesystem size: 1007 GiB[3d(B[0;1m[35m- [39m(B[mRoot filesystem used: 7.5 GiB[4d(B[0;1m[35m- [39m(B[mSystem load average: 0.00, 0.00, 0.00[6d(B[0;1m[33m## Observations[8d[39m(B[mThe WSL2 environment is healthy and lightly loaded. The largest memory consumer is the VS Code Server extension host. Herme(B[0;7m>[10;1H(B[0;1m[33m## Decision[12d[39m(B[mNo (B[0;1m[36m`.wslconfig`[39m(B[m tuning is required at this stage. The system should remain on default dynamic WSL2 resource allocation unti(B[0;7m>[14;1H(B[0;1m[33m## Evidence File[16d[36m`evidence/wsl-health-check-2026-06-02.txt`[39m(B[m[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[14;17H[?25l[?12l[?25h[A[?25l[?12l[?25h[12;43H[?25l[?12l[?25h[A[?25l[?12l[?25h[10;12H[?25l[?12l[?25h[A[?25l[?12l[?25h[8;43H[?25l[?12l[?25h[A[?25l[?12l[?25h[6;16H[?25l[?12l[?25h[A[?25l[?12l[?25h[4;40H[?25l[?12l[?25h[3;32H[?25l[?12l[?25h[AB[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mSwap used: 0 B[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mSwap configured: 4.0 GiB[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mMemory available: 14 GiB[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mMemory used at baseline: 1.4 GiB[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mMemory visible to Ubuntu: 15 GiB[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[35m- [39m(B[mCPU threads visible to Ubuntu: 24[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H(B[0;1m[33m## Key Findings[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HKernel: 6.6.114.1-microsoft-standard-WSL2[44m  [49m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HEnvironment: Ubuntu on WSL2[44m  [49m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HHost: DESKTOP-27TFO05[44m  [49m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1HDate: 2026-06-02[44m  [49m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m## Evidence Item 001 — WSL Health Check[39m(B[m[?25l[?12l[?25h7[2;31r8M[1;33r[2;1H[?25l[?12l[?25h7[2;30r8M[1;33r[2;1H(B[0;1m[33m# LAB-01 Evidence — WSL Baseline[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[32;16H         (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[32;73H(B[0;7mM-B(B[m Backup File         (B[0;7m^T(B[m Browse[K[33;2H(B[0;7mC(B[m Cancel[16G         (B[0;7mM-M(B[m Mac Format          (B[0;7mM-P(B[m Prepend             (B[0;7m^Q(B[m Discard buffer[K[32;106H[A(B[0;7mWrite to File: labs/LAB-01-WSL-BASELINE/LAB-01-EVIDENCE.md                                                                  [31;59H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;89H(B[0;7m [123G(B[m[31;54H(B[0;7m[ Wrote 32 lines ](B[m[32;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[?12l[?25h[2;33H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ [7msudo hostnamectl set-hostname[27msudo hostnamectl set-hostname DIRT[K[K[K[KEarth[K[K[K[K[Krth[K[K[KRTH
+[?2004l[sudo: authenticate] Password: **************              
+sudo: Authentication failed, try again.
+[sudo: authenticate] Password: ******      
+sudo: Authentication failed, try again.
+[sudo: authenticate] Password: **********          
+sudo: maximum 3 incorrect authentication attempts
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ sudo hostnamectl set-hostname RTH
+[?2004l[sudo: authenticate] Password: ***   *******************                   
+sudo: Authentication failed, try again.
+[sudo: authenticate] Password: *******       
+sudo: Authentication failed, try again.
+[sudo: authenticate] Password: *******       
+sudo: maximum 3 incorrect authentication attempts
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ sudo hostnamectl set-hostname RTH
+[?2004l[sudo: authenticate] Password: *****************                 
+[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ sudo hostnamectl set-hostname RTH
+[?2004l[?2004h]0;dev@DESKTOP-27TFO05: ~/projects/PADRO-AI-LABS-2026-A1[01;32mdev@DESKTOP-27TFO05[00m:[01;34m~/projects/PADRO-AI-LABS-2026-A1[00m$ 
