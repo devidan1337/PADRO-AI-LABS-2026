@@ -105,4 +105,158 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add .[27mgit add .
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit commit -m "Initialize PADRO-AI-LABS-2026 program framework"[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Initialize PADRO-AI-LABS-2026 program framework" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[?2004l[master 530684f] Initialize PADRO-AI-LABS-2026 program framework
+ 1 file changed, 50 insertions(+)
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=* [32mmaster[m[m
+[K[?1l>[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=* [32mmaster[m[m
+[K[?1l>[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git'
+[m[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit push -u origin main[27mgit push -u origin main[K\[K[Kster
+[?2004lUsername for 'https://github.com': git status          devidan1337
+Password for 'https://devidan1337@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git push -u origin master
+[?2004lUsername for 'https://github.com': devidan1337
+Password for 'https://devidan1337@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git push -u origin master
+[?2004lUsername for 'https://github.com': devidan1337
+Password for 'https://devidan1337@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git push -u origin master
+[?2004lUsername for 'https://github.com': devidan1337
+Password for 'https://devidan1337@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git push -u origin master
+[?2004lUsername for 'https://github.com': devidan1337
+Password for 'https://devidan1337@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git push -u origin master
+[?2004lUsername for 'https://github.com': devidan1337@gmail.com
+Password for 'https://devidan1337%40gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git/'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026[27mcd ~/projects/PADRO-AI-LABS-2026
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit remote set-url origin git@github.com:devidan1337/PADRO-AI-L[27m[7mA[27m[7mBS-2026.git[27m[A]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ git remote set-url origin git@github.com:devidan1337/PADRO-AI-LABS-2026.git
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lThe authenticity of host 'github.com (140.82.113.3)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mls -la ~/.ssh[27mls -la ~/.ssh
+[?2004ltotal 12
+drwx------  2 dev dev 4096 Jun  3 21:02 [0m[01;34m.[0m
+drwxr-x--- 19 dev dev 4096 Jun  3 21:02 [01;34m..[0m
+-rw-r--r--  1 dev dev  142 Jun  3 21:02 known_hosts
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mssh-keygen -t ed25519 -C "devidan1337@gmail.com"[27mssh-keygen -t ed25519 -C "devidan1337@gmail.com"
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/home/dev/.ssh/id_ed25519): 
+Enter passphrase for "/home/dev/.ssh/id_ed25519" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/dev/.ssh/id_ed25519
+Your public key has been saved in /home/dev/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:hxKPLGv/v0qVAWws6iL/9B6x8ZQlDg0bQtzvDLi+5Us devidan1337@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|   oo.oo.        |
+|    ..o=+.       |
+|     o++o o      |
+|    o..*.= o     |
+|   ...*+S +      |
+|. . oo Boo       |
+| o o+ E o        |
+|  .o.* o         |
+|   .oo*oooo.     |
++----[SHA256]-----+
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mls -la ~/.ssh[27mls -la ~/.ssh
+[?2004ltotal 20
+drwx------  2 dev dev 4096 Jun  3 21:05 [0m[01;34m.[0m
+drwxr-x--- 19 dev dev 4096 Jun  3 21:02 [01;34m..[0m
+-rw-------  1 dev dev  464 Jun  3 21:05 id_ed25519
+-rw-r--r--  1 dev dev  103 Jun  3 21:05 id_ed25519.pub
+-rw-r--r--  1 dev dev  142 Jun  3 21:02 known_hosts
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mcat ~/.ssh/id_ed25519.pub[27mcat ~/.ssh/id_ed25519.pub
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEmCD8BVW9WNv/SvOVEJ0f5EbWYTocqrvvrZvHWnFWWD devidan1337@gmail.com
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lEnter passphrase for key '/home/dev/.ssh/id_ed25519': 
+Hi devidan1337! You've successfully authenticated, but GitHub does not provide shell access.
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mcd ~/projects/PADRO-AI-LABS-2026[27mcd ~/projects/PADRO-AI-LABS-2026
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit branch -M main[27mgit branch -M main
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lEnter passphrase for key '/home/dev/.ssh/id_ed25519': 
+Enumerating objects: 23, done.
+Counting objects:   4% (1/23)Counting objects:   8% (2/23)Counting objects:  13% (3/23)Counting objects:  17% (4/23)Counting objects:  21% (5/23)Counting objects:  26% (6/23)Counting objects:  30% (7/23)Counting objects:  34% (8/23)Counting objects:  39% (9/23)Counting objects:  43% (10/23)Counting objects:  47% (11/23)Counting objects:  52% (12/23)Counting objects:  56% (13/23)Counting objects:  60% (14/23)Counting objects:  65% (15/23)Counting objects:  69% (16/23)Counting objects:  73% (17/23)Counting objects:  78% (18/23)Counting objects:  82% (19/23)Counting objects:  86% (20/23)Counting objects:  91% (21/23)Counting objects:  95% (22/23)Counting objects: 100% (23/23)Counting objects: 100% (23/23), done.
+Delta compression using up to 24 threads
+Compressing objects:   4% (1/21)Compressing objects:   9% (2/21)Compressing objects:  14% (3/21)Compressing objects:  19% (4/21)Compressing objects:  23% (5/21)Compressing objects:  28% (6/21)Compressing objects:  33% (7/21)Compressing objects:  38% (8/21)Compressing objects:  42% (9/21)Compressing objects:  47% (10/21)Compressing objects:  52% (11/21)Compressing objects:  57% (12/21)Compressing objects:  61% (13/21)Compressing objects:  66% (14/21)Compressing objects:  71% (15/21)Compressing objects:  76% (16/21)Compressing objects:  80% (17/21)Compressing objects:  85% (18/21)Compressing objects:  90% (19/21)Compressing objects:  95% (20/21)Compressing objects: 100% (21/21)Compressing objects: 100% (21/21), done.
+Writing objects:   4% (1/23)Writing objects:   8% (2/23)Writing objects:  13% (3/23)Writing objects:  17% (4/23)Writing objects:  21% (5/23)Writing objects:  26% (6/23)Writing objects:  30% (7/23)Writing objects:  34% (8/23)Writing objects:  39% (9/23)Writing objects:  43% (10/23)Writing objects:  47% (11/23)Writing objects:  52% (12/23)Writing objects:  56% (13/23)Writing objects:  60% (14/23)Writing objects:  65% (15/23)Writing objects:  69% (16/23)Writing objects:  73% (17/23)Writing objects:  78% (18/23)Writing objects:  82% (19/23)Writing objects:  86% (20/23)Writing objects:  91% (21/23)Writing objects:  95% (22/23)Writing objects: 100% (23/23)Writing objects: 100% (23/23), 17.22 KiB | 8.61 MiB/s, done.
+Total 23 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), done.[K
+To github.com:devidan1337/PADRO-AI-LABS-2026.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit push -u origin[27mgit push -u origin master
+[?2004lerror: src refspec master does not match any
+[31merror: failed to push some refs to 'github.com:devidan1337/PADRO-AI-LABS-2026.git'
+[m[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ ls
+[?2004lDAILY-LOG.md        PROGRAM-HASH.md  [01;34mblog-drafts[0m  [01;34mlessons-learned[0m  [01;34mprompts[0m  [01;34mscreenshots[0m
+LAB-INDEX.md        README.md        [01;34mdiagrams[0m     [01;34mlogs[0m             [01;34mreports[0m  [01;34mscripts[0m
+LESSONS-LEARNED.md  [0m[01;34marchitecture[0m     [01;34mlabs[0m         [01;34mmemory[0m           [01;34mroadmap[0m  templates-LAB.md
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ nano LESSONS-LEARNED.md
+[?2004l[?2004h[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;50H(B[0;7m[ Reading... ](B[m[26;48H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                                  LESSONS-LEARNED.md                                            [1;111H(B[m[27d(B[0;7m^G(B[m Help[27;17H(B[0;7m^O(B[m Write Out    (B[0;7m^F(B[m Where Is     (B[0;7m^K(B[m Cut[27;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[28d(B[0;7m^X(B[m Exit[28;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[28;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[2d(B[0;1m[33m# Lessons Learned[4d## Format[6d### Lesson Title[7d[35m- [39m(B[mContext:[8d(B[0;1m[35m- [39m(B[mMistake or discovery:[9d(B[0;1m[35m- [39m(B[mTechnical cause:[10d(B[0;1m[35m- [39m(B[mFix:[11d(B[0;1m[35m- [39m(B[mSecurity relevance:[12d(B[0;1m[35m- [39m(B[mCareer relevance:[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[26d[K[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;70H(B[0;7m*[111G(B[m[14d[?12l[?25h[?25lLesson:[15dGitHub authentication failed because WSL was a fresh Linux environment and did not yet possess an SSH keypair.[17dResolution:[18dGenerated ed25519 SSH keypair, registered public key with GitHub, validated via ssh -T.[20dConcept Learned:[21dTrust relationships in Git are based on keypairs rather than account passwords.[?12l[?25h[?25l[27;17H      (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append[27;65H  (B[0;7mM-B(B[m Backup File       (B[0;7m^T(B[m Browse[K[28;2H(B[0;7mC(B[m Cancel[17G      (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend [28;65H  (B[0;7m^Q(B[m Discard buffer[K[27;98H[A(B[0;7mWrite to File: LESSONS-LEARNED.md                                                                               [26;34H(B[m[?12l[?25h[?25l[26;49H[1K (B[0;7m[ Writing... ](B[m[K[1;70H(B[0;7m [111G(B[m[26;48H(B[0;7m[ Wrote 20 lines ](B[m[27;17H(B[0;7m^O(B[m Write Out    (B[0;7m^F(B[m Where Is     (B[0;7m^K(B[m Cut[27;65H(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[28;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[28;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[?12l[?25h[21;80H[?25l[26d[J[28d[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LESSONS-LEARNED.md[m
+	[31mmodified:   logs/2026-06-03-lab01-session-203943.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add README.md[27mgit add README.md
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add PROGRAM-HASH.md[27mgit add PROGRAM-HASH.md
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit commit -m "Initialize PADRO-AI-LABS-2026 program framework"[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Initialize PADRO-AI-LABS-2026 program framework" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LESSONS-LEARNED.md[m
+	[31mmodified:   logs/2026-06-03-lab01-session-203943.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit diff LESSONS-LEARNED.md[27mgit diff LESSONS-LEARNED.md
+[?2004l[?1h=[1mdiff --git a/LESSONS-LEARNED.md b/LESSONS-LEARNED.md[m[m
+[1mindex 84b8c5e..d1f2f87 100644[m[m
+[1m--- a/LESSONS-LEARNED.md[m[m
+[1m+++ b/LESSONS-LEARNED.md[m[m
+[36m@@ -9,3 +9,12 @@[m[m
+ - Fix:[m[m
+ - Security relevance:[m[m
+ - Career relevance:[m[m
+[32m+[m[m
+[32m+[m[32mLesson:[m[m
+[32m+[m[32mGitHub authentication failed because WSL was a fresh Linux environment and did not yet possess an SSH keypair.[m[m
+[32m+[m[m
+[32m+[m[32mResolution:[m[m
+[32m+[m[32mGenerated ed25519 SSH keypair, registered public key with GitHub, validated via ssh -T.[m[m
+[32m+[m[m
+[32m+[m[32mConcept Learned:[m[m
+[32m+[m[32mTrust relationships in Git are based on keypairs rather than account passwords.[m[m
+[K[?1l>[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add LESSONS-LEARNED.md[27mgit add LESSONS-LEARNED.md
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add logs/2026-06-03-lab01-session-203943.log[27mgit add logs/2026-06-03-lab01-session-203943.log
 [?2004l
