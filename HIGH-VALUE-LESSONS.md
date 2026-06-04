@@ -16,3 +16,9 @@ git status
 
 ## Architecture Lesson
 Avoid split-brain workflows. One source of truth is better than copying between Windows and Linux paths.
+
+## Obsidian Vault Scope
+Once Linux Obsidian successfully opened the repository root, the separate vault/ folder became redundant.
+
+Better pattern:
+Repository root = Obsidian vault = Git source of truth = Program Brain.
