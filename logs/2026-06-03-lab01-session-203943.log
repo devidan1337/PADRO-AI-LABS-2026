@@ -55,4 +55,54 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add .[27mgit add .
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit status[27mgit status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mmodified:   DAILY-LOG.md[m
+	[32mnew file:   logs/2026-06-02-lab01-session-204631.log[m
+	[32mnew file:   logs/2026-06-03-lab01-session-203943.log[m
+	[32mnew file:   scripts/lab-log.sh[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/2026-06-03-lab01-session-203943.log[m
+
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit commit -m "Initialize PADRO-AI-LABS-2026 program framework"[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Initialize PADRO-AI-LABS-2026 program framework" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[?2004l[master 2c5c845] Initialize PADRO-AI-LABS-2026 program framework
+ 5 files changed, 900 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 logs/2026-06-02-lab01-session-204631.log
+ create mode 100644 logs/2026-06-03-lab01-session-203943.log
+ create mode 100755 scripts/lab-log.sh
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit tag v0.1-foundation[27mgit tag v0.1-foundation
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit tag[27mgit tag
+[?2004l[?1h=v0.1-foundation[m
+[K[?1l>[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit log --oneline --decorate[27mgit log --oneline --decorate
+[?2004l[?1h=[33m2c5c845[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv0.1-foundation[m[33m)[m Initialize PADRO-AI-LABS-2026 program framework[m
+[33m40316b4[m Initialize PADRO-AI-LABS-2026 program brain[m
+[K[?1l>[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ ls
+[?2004lDAILY-LOG.md        PROGRAM-HASH.md  [01;34mblog-drafts[0m  [01;34mlessons-learned[0m  [01;34mprompts[0m  [01;34mscreenshots[0m
+LAB-INDEX.md        README.md        [01;34mdiagrams[0m     [01;34mlogs[0m             [01;34mreports[0m  [01;34mscripts[0m
+LESSONS-LEARNED.md  [0m[01;34marchitecture[0m     [01;34mlabs[0m         [01;34mmemory[0m           [01;34mroadmap[0m  templates-LAB.md
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit remote add origin <your-repo-url>[27mgit remote add origin <your-repo-url>
+[?2004lbash: syntax error near unexpected token `newline'
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit remote add origin[27mgit remote add origin [7mhttps://github.com/devidan1337/PADRO-AI-L[27m[7mA[27m[7mBS-2026.git[27m[A]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/devidan1337/PADRO-AI-LABS-2026.git
+[?2004l[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	https://github.com/devidan1337/PADRO-AI-LABS-2026.git (fetch)
+origin	https://github.com/devidan1337/PADRO-AI-LABS-2026.git (push)
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/devidan1337/PADRO-AI-LABS-2026.git'
+[m[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit status[27mgit status
+[?2004lOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   logs/2026-06-03-lab01-session-203943.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;dev@PADRO-AI-CORE: ~/projects/PADRO-AI-LABS-2026[01;32mdev@PADRO-AI-CORE[00m:[01;34m~/projects/PADRO-AI-LABS-2026[00m$ [7mgit add .[27mgit add .
 [?2004l
