@@ -1,244 +1,305 @@
-# PADRO-AI-LABS-2026 MASTER ROADMAP
 
-## Program Mission
+## Master Roadmap
 
-Build a secure, documented, AI-assisted engineering platform that demonstrates practical capability in:
+### Program Designation
+
+PADRO-AI-LABS-2026-A1
+Career Portfolio Optimization + Mastery Mirror
+
+---
+
+# Program Mission
+
+Build a secure, documented, portable AI engineering platform capable of supporting:
 
 * AI Engineering
-* Linux & WSL2
-* Automation
-* Telecom Operations
-* OSINT
-* DFIR
-* GRC
-* Secure Infrastructure
+* Automation Engineering
+* OSINT Workflows
+* GRC Analysis
+* DFIR Investigation
+* Telecom Automation
+* Knowledge Management
+* Portfolio Development
 
-The program serves two purposes:
+The program prioritizes:
 
-1. B1 Mastery Mirror (technical growth)
-2. A1 Career Portfolio (public evidence of capability)
+1. Security before exposure
+2. Governance before automation
+3. Documentation before scaling
+4. Recovery before complexity
 
 ---
 
 # Program Status
 
-Current Phase: Agent Engineering
+Current Active Lab: Lab 04
 
-Current Lab: Lab 02
+Last Completed Lab: Lab 03
 
-Completed Labs:
+Current Program Tag:
 
-* [x] Lab 01 - Foundation & Workstation Baseline
-* [x] Lab 02 - Agent Engineering Environment
+v0.3-security-governance
 
-Active Lab:
+Repository:
 
-* [ ] Lab 03 - Authority, Secrets, & Trust Boundaries
+PADRO-AI-LABS-2026
 
 ---
 
-# Official Labs
-
-## Lab 01 - Foundation & Workstation Baseline
+# Lab 01 - Foundation & Environment
 
 Status: COMPLETE
+
+Objectives:
+
+* WSL2 deployment
+* Git configuration
+* GitHub integration
+* SSH authentication
+* Documentation framework
+* Logging framework
 
 Deliverables:
 
-* LAB01-REPORT.md
 * SYSTEM-BASELINE.md
+* LAB01-REPORT.md
 * system_inventory.sh
-* GitHub Repository
-* SSH Authentication
-* Documentation Framework
+* lab-log.sh
+
+Outcome:
+
+Established a reproducible engineering workstation and repository foundation.
 
 ---
 
-## Lab 02 - Agent Engineering Environment
+# Lab 02 - Agent Engineering
 
 Status: COMPLETE
+
+Objectives:
+
+* Define agent ecosystem
+* Define responsibilities
+* Define workflows
+* Define orchestration model
 
 Deliverables:
 
 * AGENT-RESPONSIBILITY-MATRIX.md
 * AGENT-WORKFLOW.md
-* agent-ecosystem.txt
-* LAB02-REPORT.md
 * SYSTEM-ARCHITECTURE.md
+* LAB02-REPORT.md
+
+Outcome:
+
+Established roles for ChatGPT, Codex, Claude Code, Hermes, and future automation.
 
 ---
 
-## Lab 03 - Authority, Secrets, & Trust Boundaries
+# Lab 03 - Authority, Secrets & Trust Boundaries
 
-Status: NEXT
+Status: COMPLETE
 
 Objectives:
 
-* Secret storage standards
-* .env strategy
-* Credential lifecycle
-* Git protection
+* Authority governance
+* Secrets governance
+* Environment standards
 * Threat modeling
-* API key management
+* Incident response planning
 
 Deliverables:
 
+* AUTHORITY-CONTRACT.md
+* AUTHORITY-MATRIX.md
+* SECRETS-INVENTORY.md
 * SECRETS-STANDARD.md
 * ENVIRONMENT-STANDARD.md
 * THREAT-MODEL.md
+* INCIDENT-RESPONSE.md
 * LAB03-REPORT.md
 
-Success Criteria:
+Outcome:
 
-* No secrets committed
-* Repeatable secret management workflow
-* Documented security model
+Established security governance and trust boundary framework for future automation.
 
 ---
 
-## Lab 04 - Program Brain & Knowledge System
+# Lab 04 - Program Brain & Knowledge Architecture
+
+Status: ACTIVE
 
 Objectives:
 
 * Program Brain architecture
+* Knowledge ingestion standards
+* Retrieval standards
 * Obsidian integration
-* Knowledge structure
-* Markdown standards
-* Retrieval strategy
+* Hermes memory architecture
+* Safe indexing rules
 
-Deliverables:
+Planned Deliverables:
 
-* KNOWLEDGE-ARCHITECTURE.md
-* OBSIDIAN-STANDARD.md
-* PROGRAM-BRAIN-EXPANSION.md
+* PROGRAM-BRAIN-ARCHITECTURE.md
+* KNOWLEDGE-INGESTION-STANDARD.md
+* RETRIEVAL-STANDARD.md
+* OBSIDIAN-INTEGRATION.md
+* HERMES-MEMORY-ARCHITECTURE.md
 * LAB04-REPORT.md
+
+Outcome Target:
+
+Create a persistent knowledge system capable of supporting long-term engineering, research, and AI workflows.
 
 ---
 
-## Lab 05 - Hermes Local Operations Layer
+# Lab 05 - Secure Remote Operations
+
+Status: PLANNED
 
 Objectives:
 
-* Hermes deployment
-* Local retrieval
-* Repository awareness
-* Program navigation
+* Tailscale deployment
+* Remote administration
+* Device trust model
+* Secure access controls
 
-Deliverables:
+Planned Deliverables:
 
-* HERMES-ARCHITECTURE.md
-* HERMES-STANDARD.md
+* TAILSCALE-DEPLOYMENT.md
+* DEVICE-TRUST-MODEL.md
+* REMOTE-ACCESS-STANDARD.md
 * LAB05-REPORT.md
 
 ---
 
-## Lab 06 - Remote Access & Secure Relay
+# Lab 06 - Hermes Operations
+
+Status: PLANNED
 
 Objectives:
 
-* VPS evaluation
-* Tailscale architecture
-* Secure remote access
-* Telegram integration
+* Hermes deployment
+* Tool permissions
+* Approval workflows
+* Retrieval operations
 
-Deliverables:
+Planned Deliverables:
 
-* RELAY-ARCHITECTURE.md
-* REMOTE-ACCESS-STANDARD.md
+* HERMES-DEPLOYMENT.md
+* HERMES-PERMISSIONS.md
+* HERMES-OPERATIONS.md
 * LAB06-REPORT.md
 
 ---
 
-## Lab 07 - Telecom Automation
+# Lab 07 - Telegram Interface
+
+Status: PLANNED
 
 Objectives:
 
-* Health checks
-* Alarm analysis
-* Reporting workflows
-* ServiceNow integrations
+* Remote interaction
+* Read-only operations
+* Approval workflows
 
-Deliverables:
+Planned Deliverables:
 
-* TELECOM-AUTOMATION.md
-* AUTOMATION-PIPELINE.md
+* TELEGRAM-INTEGRATION.md
+* TELEGRAM-SECURITY-MODEL.md
 * LAB07-REPORT.md
 
 ---
 
-## Lab 08 - OSINT Operations
+# Lab 08 - Docker & Local Services
+
+Status: PLANNED
 
 Objectives:
 
-* Collection workflows
-* Investigation templates
-* Automation opportunities
+* Containerized infrastructure
+* Service isolation
+* Local AI services
 
-Deliverables:
+Planned Deliverables:
 
-* OSINT-FRAMEWORK.md
-* INVESTIGATION-WORKFLOW.md
+* DOCKER-STANDARD.md
+* SERVICE-CATALOG.md
 * LAB08-REPORT.md
 
 ---
 
-## Lab 09 - DFIR Operations
+# Lab 09 - Vector Database & RAG
+
+Status: PLANNED
 
 Objectives:
 
-* Evidence handling
-* Case management
-* Artifact review
+* Embeddings
+* Vector storage
+* Retrieval pipelines
 
-Deliverables:
+Planned Deliverables:
 
-* DFIR-FRAMEWORK.md
-* CASE-WORKFLOW.md
+* QDRANT-DEPLOYMENT.md
+* RAG-ARCHITECTURE.md
+* INDEXING-STANDARD.md
 * LAB09-REPORT.md
 
 ---
 
-## Lab 10 - GRC Operations
+# Lab 10 - VPS Relay Architecture
+
+Status: PLANNED
 
 Objectives:
 
-* Controls mapping
-* Risk tracking
-* Audit evidence
+* Secure relay design
+* Network segmentation
+* Trust boundary validation
 
-Deliverables:
+Planned Deliverables:
 
-* GRC-FRAMEWORK.md
-* CONTROL-MAPPING.md
+* VPS-ARCHITECTURE.md
+* RELAY-SECURITY-STANDARD.md
 * LAB10-REPORT.md
 
 ---
 
-## Lab 11 - Portfolio Engineering
+# Lab 11 - GRC & Compliance Framework
+
+Status: PLANNED
 
 Objectives:
 
-* GitHub presentation
-* Architecture diagrams
-* Public documentation
+* Control mapping
+* Risk tracking
+* Audit evidence
 
-Deliverables:
+Planned Deliverables:
 
-* PORTFOLIO-STANDARD.md
-* RESUME-ARTIFACTS.md
+* GRC-FRAMEWORK.md
+* CONTROL-MAPPING.md
+* AUDIT-EVIDENCE-STANDARD.md
+* LAB11-REPORT.md
 
 ---
 
-## Lab 12 - AI Engineering Showcase
+# Lab 12 - Portfolio Engineering & Showcase
+
+Status: PLANNED
 
 Objectives:
 
-* End-to-end AI workflows
-* Agent orchestration
+* Public documentation
+* Architecture diagrams
 * Demonstration projects
+* Resume artifacts
 
-Deliverables:
+Planned Deliverables:
 
+* PORTFOLIO-STANDARD.md
+* RESUME-ARTIFACTS.md
 * SHOWCASE-PROJECTS.md
 * LAB12-REPORT.md
 
@@ -251,17 +312,19 @@ A lab is considered complete when:
 1. Deliverables exist.
 2. Documentation exists.
 3. Report exists.
-4. Git commit history exists.
+4. Git history exists.
 5. Lessons learned are documented.
+6. Roadmap status is updated.
+7. Repository is tagged.
 
 ---
 
-# Current Next Actions
+# Guiding Principle
 
-1. Complete Lab 02 final review.
-2. Tag repository:
+Build locally.
 
-   * v0.2-lab02-complete
-3. Begin Lab 03.
-4. Design secrets management architecture.
-5. Establish API hygiene standards.
+Expose nothing unnecessarily.
+
+Document everything.
+
+Turn every mistake into evidence of engineering growth.
