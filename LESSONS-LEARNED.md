@@ -18,3 +18,14 @@ Generated ed25519 SSH keypair, registered public key with GitHub, validated via 
 
 Concept Learned:
 Trust relationships in Git are based on keypairs rather than account passwords.
+
+Lab: 01
+
+Lesson:
+Codex can be used as an implementation engineer while maintaining architectural control.
+
+Observation:
+Providing explicit constraints such as "Do not modify existing files without asking" resulted in disciplined behavior and predictable outputs.
+
+Takeaway:
+Agent supervision and instruction quality directly impact implementation outcomes.
