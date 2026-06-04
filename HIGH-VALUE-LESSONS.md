@@ -22,3 +22,11 @@ Once Linux Obsidian successfully opened the repository root, the separate vault/
 
 Better pattern:
 Repository root = Obsidian vault = Git source of truth = Program Brain.
+
+Linux differentiates between files and directories.
+
+Before creating nested files, verify the target path type using:
+
+ls -la
+
+A file and directory may not share the same name in the same location.
