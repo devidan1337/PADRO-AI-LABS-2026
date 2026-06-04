@@ -32,3 +32,4 @@ cache/
 # Large generated logs
 logs/*.tmp
 logs/*.log
+logs/*.log
