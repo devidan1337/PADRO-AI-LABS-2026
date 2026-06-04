@@ -262,3 +262,19 @@ Lab 02 successfully established the foundational AI engineering governance model
 
 This architecture will serve as the basis for future labs involving secrets management, automation, OSINT, DFIR, GRC, cloud relay systems, and agent orchestration.
 
+## Bridge to Lab 03
+
+Lab 02 defined agent roles and workflows. During review, the program identified that role definition alone is not enough. Each agent and infrastructure component also requires an authority model.
+
+This discovery leads directly into Lab 03: Authority, Secrets & Trust Boundaries.
+
+Lab 03 will define:
+
+- direct authority
+- indirect authority
+- approval triggers
+- logging requirements
+- revocation methods
+- blast radius
+
+The key transition is from an agent responsibility matrix to an authority contract.

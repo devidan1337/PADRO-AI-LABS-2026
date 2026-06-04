@@ -33,7 +33,7 @@ Completed Labs:
 
 Active Lab:
 
-* [ ] Lab 03 - Secrets Management & API Hygiene
+* [ ] Lab 03 - Authority, Secrets, & Trust Boundaries
 
 ---
 
@@ -68,7 +68,7 @@ Deliverables:
 
 ---
 
-## Lab 03 - Secrets Management & API Hygiene
+## Lab 03 - Authority, Secrets, & Trust Boundaries
 
 Status: NEXT
 
