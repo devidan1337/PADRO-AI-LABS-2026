@@ -4,15 +4,15 @@
 
 Current Active Lab:
 
-Lab 04 - Program Brain & Knowledge Architecture
+Lab07 - Telecom Automation Foundation
 
-Last Completed Lab:
+Last Completed Major Phase:
 
-Lab 03 - Authority, Secrets & Trust Boundaries
+Lab04 - Program Brain & Knowledge Architecture
 
-Current Repository Tag:
+Current Repository Status:
 
-v0.3-security-governance
+Clean and synchronized with GitHub
 
 ---
 
@@ -20,11 +20,14 @@ v0.3-security-governance
 
 ## Objective 1
 
-Create Program Brain architecture.
+Review Lab07 foundation files.
 
 Deliverable:
 
-* knowledge/PROGRAM-BRAIN-ARCHITECTURE.md
+- labs/Lab07-Telecom-Automation-Foundation/README.md
+- labs/Lab07-Telecom-Automation-Foundation/REPORT.md
+- labs/Lab07-Telecom-Automation-Foundation/USE-CASE.md
+- labs/Lab07-Telecom-Automation-Foundation/LESSONS.md
 
 Status:
 
@@ -34,11 +37,15 @@ IN PROGRESS
 
 ## Objective 2
 
-Define knowledge ingestion standards.
+Define telecom automation scope.
 
-Deliverable:
+Focus:
 
-* knowledge/KNOWLEDGE-INGESTION-STANDARD.md
+- NOC alarm review
+- ticket summarization
+- health-check automation
+- incident documentation
+- safe AI-assisted triage
 
 Status:
 
@@ -48,39 +55,15 @@ PENDING
 
 ## Objective 3
 
-Define retrieval standards.
+Connect Lab07 to Program Brain.
 
-Deliverable:
+Focus:
 
-* knowledge/RETRIEVAL-STANDARD.md
-
-Status:
-
-PENDING
-
----
-
-## Objective 4
-
-Design Obsidian integration.
-
-Deliverable:
-
-* knowledge/OBSIDIAN-INTEGRATION.md
-
-Status:
-
-PENDING
-
----
-
-## Objective 5
-
-Design Hermes memory architecture.
-
-Deliverable:
-
-* knowledge/HERMES-MEMORY-ARCHITECTURE.md
+- reusable telecom concepts
+- lessons learned
+- operational workflows
+- AI documentation workflow
+- retrieval system
 
 Status:
 
@@ -90,54 +73,22 @@ PENDING
 
 # Current Questions
 
-Lab 04 must answer:
-
-1. What information should be remembered?
-2. What information should never be remembered?
-3. How should knowledge be categorized?
-4. How should knowledge be retrieved?
-5. How should Hermes consume knowledge?
-6. How should Obsidian integrate with Program Brain?
-7. How should future RAG systems interact with stored knowledge?
-
----
-
-# Completion Criteria
-
-Lab 04 is complete when:
-
-* Program Brain architecture exists.
-* Knowledge ingestion standards exist.
-* Retrieval standards exist.
-* Obsidian integration design exists.
-* Hermes memory architecture exists.
-* LAB04-REPORT.md exists.
-* Lessons learned are documented.
-* Repository changes are committed and pushed.
+1. What telecom workflow should Lab07 model first?
+2. What should be automated safely?
+3. What must remain human-approved?
+4. What evidence should the lab produce?
+5. How does this become portfolio-ready?
 
 ---
 
 # Current Working Principle
 
-Governance before automation.
+Use AI to improve documentation, triage, analysis, and repeatability.
 
-Architecture before implementation.
-
-Knowledge before retrieval.
-
-Documentation before scaling.
+Do not automate operational authority before governance, review, and approval are defined.
 
 ---
 
-# After Lab 04
+# Next Commit Target
 
-Planned Next Lab:
-
-Lab 05 - Secure Remote Operations
-
-Expected Focus:
-
-* Tailscale
-* Remote administration
-* Device trust model
-* Secure remote access
+Update Lab07 roadmap and define telecom automation scope.
