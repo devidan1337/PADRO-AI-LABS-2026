@@ -2,39 +2,46 @@
 
 ## Program Mission
 
-Build a secure, local-first AI infrastructure lab that remains protected from direct internet exposure while allowing controlled remote interaction through a Linode relay and Telegram interface.
+Build a secure, local-first AI infrastructure lab that remains protected from direct internet exposure, is segmented on an AI lab VLAN, and is reachable remotely only through controlled secure access. Future phases add a Linode relay, Hermes local operations, and a Telegram interface without turning the home lab into public infrastructure.
 
-Target architecture:
+## Target Architecture
 
 ```text
 Telegram / Mobile User
-        ↓
+        |
+        v
 Linode Relay Server
-        ↓
+        |
+        v
 Secure Tunnel / Controlled Relay Path
-        ↓
-Home Network
-        ↓
+        |
+        v
+Home Network Edge
+        |
+        v
 Dedicated AI Lab VLAN
-        ↓
+        |
+        v
 Local AI Infrastructure
-        ↓
+        |
+        v
 Hermes / Program Brain / Local Tools
 ```
 
----
+Primary architecture reference:
+
+- architecture/TARGET-ARCHITECTURE.md
 
 ## Program Principles
 
 1. Local-first AI infrastructure.
 2. No direct public inbound access to the home lab.
-3. Dedicated VLAN for AI lab systems.
-4. Linode acts as controlled relay, not trusted core.
-5. Telegram is a command interface, not unrestricted shell access.
-6. Hermes must obey authority and approval boundaries.
-7. Documentation supports implementation; it does not replace it.
-
----
+3. Dedicated AI lab VLAN or equivalent segmented network zone.
+4. Controlled secure remote access before public relay work.
+5. Linode acts as a constrained relay, not a trusted core.
+6. Hermes follows Lab03 authority, secrets, and trust boundaries.
+7. Telegram is a constrained command interface, not unrestricted shell access.
+8. Documentation must lead implementation and preserve rollback paths.
 
 ## Current Program Status
 
@@ -42,429 +49,353 @@ Current Active Lab:
 
 Lab05 - Network Segmentation & Secure Remote Access
 
-Last Completed Lab:
+Last Completed Official Lab:
 
-Lab04 - Program Brain & Knowledge Architecture
+Lab04 - Program Brain / Knowledge
 
-Current Repository:
+Repository:
 
 PADRO-AI-LABS-2026
 
----
+## Official Labs
 
-# Completed Foundation Labs
-
-## Lab01 - Foundation & Environment
+### Lab01 - Foundation
 
 Status: COMPLETE
 
+Purpose:
+
+- Establish the baseline local development environment and repository workflow.
+
 Focus:
 
-* WSL2
-* Git/GitHub
-* SSH authentication
-* Baseline reporting
-* Logging workflow
+- WSL2 baseline.
+- Git/GitHub workflow.
+- SSH authentication.
+- System inventory.
+- Lab logging.
 
-Key Deliverables:
+Representative deliverables:
 
-* LAB01-REPORT.md
-* SYSTEM-BASELINE.md
-* system_inventory.sh
-* lab-log.sh
+- reports/LAB01-REPORT.md
+- reports/SYSTEM-BASELINE.md
+- scripts/system_inventory.sh
+- scripts/lab-log.sh
 
----
-
-## Lab02 - Agent Engineering
+### Lab02 - Agent Engineering
 
 Status: COMPLETE
 
+Purpose:
+
+- Define how ChatGPT, Codex, Claude Code, Hermes, and human operators divide responsibilities.
+
 Focus:
 
-* ChatGPT
-* Codex
-* Claude Code
-* Hermes role design
-* Agent responsibility model
+- Agent roles.
+- Workflow boundaries.
+- Human approval points.
+- Agent responsibility mapping.
 
-Key Deliverables:
+Representative deliverables:
 
-* AGENT-RESPONSIBILITY-MATRIX.md
-* AGENT-WORKFLOW.md
-* SYSTEM-ARCHITECTURE.md
-* LAB02-REPORT.md
+- architecture/AGENT-RESPONSIBILITY-MATRIX.md
+- architecture/AGENT-WORKFLOW.md
+- architecture/SYSTEM-ARCHITECTURE.md
+- reports/LAB02-REPORT.md
 
----
-
-## Lab03 - Authority, Secrets & Trust Boundaries
+### Lab03 - Authority/Secrets/Trust
 
 Status: COMPLETE
 
+Purpose:
+
+- Define authority boundaries, secrets handling, trust assumptions, and incident response expectations.
+
 Focus:
 
-* Authority contract
-* Secrets governance
-* Threat model
-* Incident response
-* Environment standard
+- Authority contract.
+- Secrets governance.
+- Threat model.
+- Environment standard.
+- Incident response.
 
-Key Deliverables:
+Representative deliverables:
 
-* AUTHORITY-CONTRACT.md
-* AUTHORITY-MATRIX.md
-* SECRETS-INVENTORY.md
-* SECRETS-STANDARD.md
-* ENVIRONMENT-STANDARD.md
-* THREAT-MODEL.md
-* INCIDENT-RESPONSE.md
-* LAB03-REPORT.md
+- architecture/AUTHORITY-CONTRACT.md
+- architecture/AUTHORITY-MATRIX.md
+- security/SECRETS-STANDARD.md
+- security/ENVIRONMENT-STANDARD.md
+- security/THREAT-MODEL.md
+- security/INCIDENT-RESPONSE.md
+- reports/LAB03-REPORT.md
 
----
-
-## Lab04 - Program Brain & Knowledge Architecture
+### Lab04 - Program Brain/Knowledge
 
 Status: COMPLETE
 
+Purpose:
+
+- Establish the knowledge architecture that supports Hermes, retrieval, documentation, and future RAG work.
+
 Focus:
 
-* Program Brain
-* Obsidian integration
-* Retrieval standards
-* Hermes memory architecture
-* Knowledge ingestion rules
+- Program Brain structure.
+- Knowledge ingestion.
+- Retrieval standards.
+- Obsidian integration.
+- Hermes memory architecture.
 
-Key Deliverables:
+Representative deliverables:
 
-* PROGRAM-BRAIN-ARCHITECTURE.md
-* KNOWLEDGE-INGESTION-STANDARD.md
-* RETRIEVAL-STANDARD.md
-* OBSIDIAN-INTEGRATION.md
-* WSL-OBSIDIAN-INTEGRATION.md
-* HERMES-MEMORY-ARCHITECTURE.md
-* LAB04-REPORT.md
+- knowledge/PROGRAM-BRAIN-ARCHITECTURE.md
+- knowledge/KNOWLEDGE-INGESTION-STANDARD.md
+- knowledge/RETRIEVAL-STANDARD.md
+- knowledge/OBSIDIAN-INTEGRATION.md
+- knowledge/HERMES-MEMORY-ARCHITECTURE.md
+- reports/LAB04-REPORT.md
 
----
-
-# Implementation Labs
-
-## Lab05 - Network Segmentation & Secure Remote Access
+### Lab05 - Network Segmentation & Secure Remote Access
 
 Status: ACTIVE
 
 Purpose:
 
-Prepare secure remote access to the local AI lab without exposing the home network directly to the internet.
+- Design and validate the network foundation for local AI infrastructure before adding relay or chat interfaces.
 
 Focus:
 
-* VLAN planning
-* AI lab network zone
-* Tailscale deployment
-* Device trust model
-* Remote access validation
-* No router port forwarding
+- AI lab VLAN design.
+- Home network trust boundaries.
+- Secure remote access model.
+- Trusted device model.
+- No public inbound home-lab exposure.
+- Validation and rollback documentation.
 
-Planned Deliverables:
+Official folder:
 
-* TARGET-ARCHITECTURE.md
-* VLAN-DESIGN.md
-* TAILSCALE-DEPLOYMENT.md
-* DEVICE-TRUST-MODEL.md
-* REMOTE-ACCESS-STANDARD.md
-* VALIDATION.md
-* LAB05-REPORT.md
+- labs/Lab05-Network-Segmentation-Secure-Remote-Access
 
-Success Criteria:
+Planned deliverables:
 
-* Home AI lab network design is documented.
-* Remote access path is secure and tested.
-* No public inbound ports are exposed to the home lab.
-* Trusted devices can reach PADRO-AI-CORE securely.
+- VLAN-DESIGN.md
+- SECURE-REMOTE-ACCESS.md
+- DEVICE-TRUST-MODEL.md
+- FIREWALL-RULES-PLAN.md
+- VALIDATION.md
+- LAB05-REPORT.md
 
----
+Success criteria:
 
-## Lab06 - Linode Relay Architecture
+- The AI lab network zone is documented.
+- Remote access path is defined and validated.
+- The design avoids home-router public inbound exposure.
+- Trust boundaries are clear before Linode relay work begins.
+
+### Lab06 - Linode Relay Architecture
 
 Status: PLANNED
 
 Purpose:
 
-Design and deploy a small Linode relay server as the controlled public-facing bridge between Telegram and the private AI lab.
+- Design a small public relay layer that can support Telegram and Hermes workflows without exposing the home AI lab directly.
 
 Focus:
 
-* Linode provisioning
-* SSH hardening
-* Firewall rules
-* Relay responsibilities
-* No secret vault on relay
-* No broad home-lab authority on relay
-* Assume-relay-compromise model
+- Linode relay responsibilities.
+- Public edge hardening.
+- Relay-to-home controlled path.
+- Assume-relay-compromise model.
+- Minimal authority and no secret vault role.
 
-Planned Deliverables:
+Official folder:
 
-* LINODE-RELAY-ARCHITECTURE.md
-* RELAY-HARDENING.md
-* RELAY-FIREWALL.md
-* RELAY-VALIDATION.md
-* LAB06-REPORT.md
+- labs/Lab06-Linode-Relay-Architecture
 
-Success Criteria:
+Planned deliverables:
 
-* Relay can receive approved external requests.
-* Relay does not expose the home lab directly.
-* Relay compromise does not equal home lab compromise.
+- LINODE-RELAY-ARCHITECTURE.md
+- RELAY-HARDENING.md
+- RELAY-FIREWALL.md
+- RELAY-VALIDATION.md
+- LAB06-REPORT.md
 
----
+Success criteria:
 
-## Lab07 - Hermes Local Operations
+- Relay responsibilities are constrained.
+- Relay compromise does not equal home-lab compromise.
+- Relay does not hold broad home-lab authority.
+
+### Lab07 - Hermes Local Operations
 
 Status: PLANNED
 
 Purpose:
 
-Deploy Hermes locally as the operational assistant for Program Brain, lab navigation, and approved local workflows.
+- Deploy Hermes as a local operations assistant before exposing any remote control path.
 
 Focus:
 
-* Hermes installation
-* Program Brain access
-* Retrieval validation
-* Tool permissions
-* Local-only operation first
-* Approval boundaries
+- Local Hermes service model.
+- Program Brain access.
+- Retrieval validation.
+- Tool permission tiers.
+- Approval boundaries.
+- Local-only operations first.
 
-Planned Deliverables:
+Official folder:
 
-* HERMES-DEPLOYMENT.md
-* HERMES-PERMISSIONS.md
-* HERMES-OPERATIONS.md
-* HERMES-VALIDATION.md
-* LAB07-REPORT.md
+- labs/Lab07-Hermes-Local-Operations
 
-Success Criteria:
+Planned deliverables:
 
-* Hermes can retrieve approved Program Brain context.
-* Hermes does not access secrets.
-* Hermes does not perform destructive actions.
-* Hermes operates locally before remote exposure.
+- HERMES-DEPLOYMENT.md
+- HERMES-PERMISSIONS.md
+- HERMES-OPERATIONS.md
+- HERMES-VALIDATION.md
+- LAB07-REPORT.md
 
----
+Success criteria:
 
-## Lab08 - Telegram Interface
+- Hermes can retrieve approved Program Brain context.
+- Hermes does not access secrets.
+- Hermes does not perform destructive actions without approval.
+- Hermes runs locally before Telegram integration.
+
+### Lab08 - Telegram Interface
 
 Status: PLANNED
 
 Purpose:
 
-Connect Telegram to the AI lab through the Linode relay and Hermes while enforcing read-only-first behavior and approval workflows.
+- Connect Telegram to Hermes through the relay architecture while enforcing read-only-first behavior and approval workflows.
 
 Focus:
 
-* Telegram bot configuration
-* Chat allowlist
-* Bot token handling
-* Read-only commands
-* Approval workflow
-* Logging
+- Telegram bot interface.
+- Request classification.
+- Read-only commands.
+- Approval prompts.
+- Audit logging.
+- Deny-by-default command model.
 
-Planned Deliverables:
+Official folder:
 
-* TELEGRAM-INTEGRATION.md
-* TELEGRAM-SECURITY-MODEL.md
-* TELEGRAM-COMMANDS.md
-* TELEGRAM-VALIDATION.md
-* LAB08-REPORT.md
+- labs/Lab08-Telegram-Interface
 
-Success Criteria:
+Planned deliverables:
 
-* Telegram can request approved information.
-* Telegram cannot execute arbitrary shell commands.
-* Risky actions require explicit approval.
-* Bot token is protected and revocable.
+- TELEGRAM-INTERFACE.md
+- COMMAND-POLICY.md
+- APPROVAL-FLOW.md
+- TELEGRAM-VALIDATION.md
+- LAB08-REPORT.md
 
----
+Success criteria:
 
-## Lab09 - Docker & Local Services
+- Telegram cannot execute arbitrary shell commands.
+- Telegram cannot retrieve secrets.
+- Higher-risk actions require explicit approval.
+- Logs capture requests, decisions, and results.
+
+### Lab09 - Docker & Local Services
 
 Status: PLANNED
 
 Purpose:
 
-Containerize local AI lab services to improve isolation, repeatability, and future expansion.
+- Containerize local AI lab services in a controlled, documented environment.
 
 Focus:
 
-* Docker
-* Compose files
-* Service isolation
-* Local-only services
-* Logging
-* Restart policies
+- Docker service boundaries.
+- Local service inventory.
+- Network attachment rules.
+- Persistence and backup planning.
+- Service health checks.
 
-Planned Deliverables:
+Planned deliverables:
 
-* DOCKER-STANDARD.md
-* SERVICE-CATALOG.md
-* COMPOSE-ARCHITECTURE.md
-* LAB09-REPORT.md
+- DOCKER-SERVICE-STANDARD.md
+- LOCAL-SERVICES-INVENTORY.md
+- SERVICE-NETWORKING.md
+- LAB09-REPORT.md
 
----
-
-## Lab10 - Program Brain Retrieval / RAG
+### Lab10 - Program Brain Retrieval/RAG
 
 Status: PLANNED
 
 Purpose:
 
-Implement practical retrieval over approved Program Brain content.
+- Implement retrieval and RAG capabilities for Program Brain while preserving knowledge quality and secrets boundaries.
 
 Focus:
 
-* Search strategy
-* Embeddings
-* Vector database
-* Qdrant or equivalent
-* Indexing rules
-* Retrieval testing
+- Retrieval index design.
+- Vector database evaluation.
+- Ingestion pipeline.
+- Source attribution.
+- Retrieval validation.
 
-Planned Deliverables:
+Planned deliverables:
 
-* RAG-ARCHITECTURE.md
-* INDEXING-STANDARD.md
-* QDRANT-DEPLOYMENT.md
-* RETRIEVAL-VALIDATION.md
-* LAB10-REPORT.md
+- RAG-ARCHITECTURE.md
+- RETRIEVAL-PIPELINE.md
+- INDEX-VALIDATION.md
+- LAB10-REPORT.md
 
----
-
-## Lab11 - Telecom Automation Use Case
+### Lab11 - Telecom Automation Use Case
 
 Status: PLANNED
 
 Purpose:
 
-Build a portfolio-grade telecom automation proof of concept using safe, non-production data and workflows.
+- Apply the lab architecture to a realistic telecom automation workflow with human approval and operational safeguards.
 
 Focus:
 
-* Health checks
-* Alarm review concepts
-* Incident documentation
-* Ticket summarization
-* AI-assisted triage
-* Human approval boundaries
+- NOC-style alarm review.
+- Ticket summarization.
+- Health-check analysis.
+- Incident documentation.
+- Safe AI-assisted triage.
 
-Planned Deliverables:
+Planned deliverables:
 
-* TELECOM-AUTOMATION-USE-CASE.md
-* AUTOMATION-SCRIPT.md
-* INCIDENT-SUMMARY-WORKFLOW.md
-* LAB11-REPORT.md
+- USE-CASE.md
+- AUTOMATION-BOUNDARIES.md
+- TRIAGE-WORKFLOW.md
+- LAB11-REPORT.md
 
----
-
-## Lab12 - Portfolio Showcase
+### Lab12 - Portfolio Showcase
 
 Status: PLANNED
 
 Purpose:
 
-Package PADRO-AI-LABS into a career-ready portfolio demonstration.
+- Package the program into a portfolio-ready showcase without exposing secrets, private infrastructure details, or unsafe operational access.
 
 Focus:
 
-* GitHub presentation
-* Blog posts
-* Architecture diagrams
-* Resume bullets
-* Interview talking points
-* Demo narrative
+- Public narrative.
+- Architecture diagrams.
+- Sanitized evidence.
+- Lessons learned.
+- Demo boundaries.
 
-Planned Deliverables:
+Planned deliverables:
 
-* PORTFOLIO-STANDARD.md
-* RESUME-ARTIFACTS.md
-* SHOWCASE-PROJECTS.md
-* INTERVIEW-NARRATIVE.md
-* LAB12-REPORT.md
+- PORTFOLIO-SHOWCASE.md
+- PUBLIC-ARCHITECTURE-SUMMARY.md
+- SANITIZED-EVIDENCE.md
+- LAB12-REPORT.md
 
----
+## Support Modules
 
-# Support Modules
+The existing folders below are retained as support modules and historical work products. They are not the official implementation lab sequence for local AI infrastructure:
 
-These are useful support modules, but they are not the official infrastructure lab sequence.
+- labs/Lab05-AI-Documentation-Workflow
+- labs/Lab06-Retrieval-System
+- labs/Lab07-Telecom-Automation-Foundation
 
-## AI Documentation Workflow
-
-Current location:
-
-labs/Lab05-AI-Documentation-Workflow
-
-Future classification:
-
-modules/AI-Documentation-Workflow
-
-Purpose:
-
-Turn technical work into structured documentation and portfolio artifacts.
-
----
-
-## Retrieval System
-
-Current location:
-
-labs/Lab06-Retrieval-System
-
-Future classification:
-
-modules/Retrieval-System
-
-Purpose:
-
-Improve search, linking, and retrieval across PADRO-AI-LABS.
-
----
-
-## Telecom Automation Foundation
-
-Current location:
-
-labs/Lab07-Telecom-Automation-Foundation
-
-Future classification:
-
-modules/Telecom-Automation-Foundation
-
-Purpose:
-
-Early telecom automation documentation and use-case development.
-
----
-
-# Program Completion Criteria
-
-A lab is considered complete when:
-
-1. Deliverables exist.
-2. Technical implementation exists where applicable.
-3. Validation evidence exists.
-4. Documentation exists.
-5. Report exists.
-6. Lessons learned are documented.
-7. Git history exists.
-8. Roadmap status is updated.
-
----
-
-# Guiding Principle
-
-Build the system.
-
-Document the system.
-
-Secure the system.
-
-Then expose only what is necessary.
-
+These folders must not be moved or deleted until a separate migration plan is approved.

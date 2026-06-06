@@ -4,91 +4,83 @@
 
 Current Active Lab:
 
-Lab07 - Telecom Automation Foundation
+Lab05 - Network Segmentation & Secure Remote Access
 
-Last Completed Major Phase:
+Last Completed Official Lab:
 
-Lab04 - Program Brain & Knowledge Architecture
+Lab04 - Program Brain / Knowledge
 
 Current Repository Status:
 
-Clean and synchronized with GitHub
+Roadmap realignment in progress.
 
----
+## Immediate Objectives
 
-# Immediate Objectives
+### Objective 1 - Establish Lab05 Scope
 
-## Objective 1
+Deliverables:
 
-Review Lab07 foundation files.
-
-Deliverable:
-
-- labs/Lab07-Telecom-Automation-Foundation/README.md
-- labs/Lab07-Telecom-Automation-Foundation/REPORT.md
-- labs/Lab07-Telecom-Automation-Foundation/USE-CASE.md
-- labs/Lab07-Telecom-Automation-Foundation/LESSONS.md
+- labs/Lab05-Network-Segmentation-Secure-Remote-Access/README.md
+- architecture/TARGET-ARCHITECTURE.md
+- roadmap/MASTER-ROADMAP.md
 
 Status:
 
 IN PROGRESS
 
----
-
-## Objective 2
-
-Define telecom automation scope.
+### Objective 2 - Document Network Segmentation Plan
 
 Focus:
 
-- NOC alarm review
-- ticket summarization
-- health-check automation
-- incident documentation
-- safe AI-assisted triage
+- AI lab VLAN purpose.
+- Home network trust boundaries.
+- Allowed and denied traffic classes.
+- Required validation evidence.
+- Rollback notes before implementation.
 
 Status:
 
 PENDING
 
----
-
-## Objective 3
-
-Connect Lab07 to Program Brain.
+### Objective 3 - Define Secure Remote Access Model
 
 Focus:
 
-- reusable telecom concepts
-- lessons learned
-- operational workflows
-- AI documentation workflow
-- retrieval system
+- Trusted remote devices.
+- Identity and access expectations.
+- No public inbound home-lab exposure.
+- Candidate private access approach.
+- Audit and revocation requirements.
 
 Status:
 
 PENDING
 
----
+### Objective 4 - Prepare Lab06 Handoff
 
-# Current Questions
+Focus:
 
-1. What telecom workflow should Lab07 model first?
-2. What should be automated safely?
-3. What must remain human-approved?
-4. What evidence should the lab produce?
-5. How does this become portfolio-ready?
+- Conditions required before Linode relay work begins.
+- Relay trust assumptions.
+- Controlled path from public edge to home lab.
+- Non-goals for the relay.
 
----
+Status:
 
-# Current Working Principle
+PENDING
 
-Use AI to improve documentation, triage, analysis, and repeatability.
+## Current Questions
 
-Do not automate operational authority before governance, review, and approval are defined.
+1. What VLAN or segmented network approach will host the AI lab?
+2. Which devices are trusted to administer PADRO-AI-CORE remotely?
+3. What remote access method will be evaluated first?
+4. What evidence proves the home lab has no public inbound exposure?
+5. What must be complete before Linode relay architecture begins?
 
----
+## Current Working Principle
 
-# Next Commit Target
+Build the private local AI lab security boundary first. Do not expose relay, Hermes, Telegram, or automation workflows until network segmentation and controlled remote access are documented and validated.
 
-Update Lab07 roadmap and define telecom automation scope.
+## Next Commit Target
+
+Realign the roadmap around Lab05 as the active infrastructure lab and create official Lab05-Lab08 implementation folders.

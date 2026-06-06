@@ -2,252 +2,240 @@
 
 ## Mission
 
-Build a secure local AI infrastructure environment that remains protected from direct internet exposure while allowing controlled remote interaction through a Linode relay and Telegram interface.
+Build a secure, local-first AI infrastructure environment that is protected from direct internet exposure, segmented on a dedicated AI lab VLAN, reachable remotely only through controlled access paths, and ready for future Linode relay, Hermes, and Telegram interface layers.
 
----
-
-## Target System
+## Target Implementation Architecture
 
 ```text
 Telegram / Mobile User
-        ↓
+        |
+        v
 Linode Relay Server
-        ↓
+        |
+        v
 Secure Tunnel / Controlled Relay Path
-        ↓
-Home Network
-        ↓
+        |
+        v
+Home Network Edge
+        |
+        v
 Dedicated AI Lab VLAN
-        ↓
+        |
+        v
 Local AI Infrastructure
-        ↓
+        |
+        v
 Hermes / Program Brain / Local Tools
+```
 
-Core Design Principles
-No direct public inbound access to the home lab.
-Local AI infrastructure remains inside a dedicated VLAN.
-Remote access flows through a controlled relay path.
-Linode is treated as exposed infrastructure.
-Home systems initiate outbound trust where possible.
-Telegram is a command interface, not unrestricted shell access.
-Hermes must obey Lab03 authority and approval rules.
-Secrets never live in Telegram, Program Brain, or public-facing relay logs.
-Major Components
-Home AI Lab VLAN
+## Core Rules
+
+1. Local AI infrastructure is not directly exposed to the public internet.
+2. AI lab systems live in a dedicated VLAN or equivalent segmented network zone.
+3. Remote administration uses controlled secure access, not home-router port forwarding.
+4. Linode is a relay and public edge component, not a trusted core system.
+5. Hermes operates under the Lab03 authority, secrets, and trust model.
+6. Telegram is a constrained command interface, not a remote shell.
+7. Secrets do not live in Telegram, Program Brain, relay logs, or public-facing services.
+8. Implementation changes require documentation, validation, and rollback notes.
+
+## Local AI Lab VLAN
 
 Purpose:
 
-Isolate AI infrastructure from primary home devices.
-Limit blast radius if lab services are compromised.
-Provide a controlled network zone for Hermes, Docker, RAG, and local tools.
+- Isolate AI lab infrastructure from primary home devices.
+- Limit blast radius if an experimental service is compromised.
+- Provide a stable network zone for Hermes, Program Brain, Docker services, retrieval systems, and future automation.
 
 Expected systems:
 
-PADRO-AI-CORE
-Hermes
-Program Brain
-Future Docker services
-Future vector database / RAG services
-Local AI Infrastructure
+- PADRO-AI-CORE
+- Hermes local operations service
+- Program Brain files and retrieval indexes
+- Docker-hosted local services
+- Future vector database or RAG services
+
+Initial Lab05 work is documentation and validation only. Router, firewall, VLAN, VPN, and DNS changes must be planned before implementation.
+
+## Secure Remote Access
 
 Purpose:
 
-Run local-first AI tooling and automation.
+- Allow trusted remote access to the AI lab without exposing inbound services from the home network to the internet.
 
-Components:
+Preferred model:
 
-WSL2 Ubuntu
-Git/GitHub repository
-Codex
-Claude Code workflow
-Hermes
-Program Brain
-Future Docker services
-Future RAG/vector search
-Hermes
+- Home systems initiate outbound trust where possible.
+- Remote access is limited to trusted identities and devices.
+- Administrative access is logged and revocable.
+- Public inbound router forwarding is avoided.
 
-Purpose:
+Candidate technologies may include Tailscale or equivalent private connectivity, but no software installation or network setting changes are part of this repo realignment patch.
 
-Local AI operations assistant.
-
-Responsibilities:
-
-Retrieve Program Brain knowledge
-Summarize project state
-Assist with lab navigation
-Propose safe actions
-Support future automation
-
-Restrictions:
-
-No silent authority inheritance
-No raw secret access
-No destructive actions without approval
-No arbitrary shell execution from Telegram
-Linode Relay Server
+## Linode Relay
 
 Purpose:
 
-Provide a small controlled public relay layer between Telegram and the private AI lab.
+- Provide a small public relay layer for future Telegram-originated requests.
+- Keep public exposure outside the home AI lab.
+- Forward only approved request types through a restricted channel.
 
 Assumption:
 
-The relay is internet-exposed and must be treated as hostile or eventually compromisable.
-
-Responsibilities:
-
-Receive Telegram-originated requests
-Validate allowed request types
-Forward approved requests through secure channel
-Avoid storing secrets
-Avoid holding broad access to the home lab
+- The relay is internet-exposed and must be treated as hostile or eventually compromisable.
 
 Restrictions:
 
-No SSH private keys granting broad home access
-No secret vault
-No direct unrestricted shell control
-No persistent authority beyond relay function
-Telegram Interface
+- No broad SSH authority into the home lab.
+- No secret vault role.
+- No unrestricted shell control.
+- No persistent authority beyond relay duties.
+- No direct exposure of private AI lab services.
+
+## Hermes Local Operations
 
 Purpose:
 
-Provide mobile access to Hermes.
+- Serve as the local operations assistant for lab navigation, Program Brain retrieval, status reporting, and approved workflows.
+
+Allowed responsibilities:
+
+- Retrieve approved Program Brain context.
+- Summarize project and lab state.
+- Propose safe next actions.
+- Produce reports and operational notes.
+- Support future read-only checks.
+
+Restrictions:
+
+- No silent authority inheritance.
+- No raw secret access.
+- No destructive actions without explicit approval.
+- No arbitrary shell execution from Telegram.
+- No bypass of Lab03 authority controls.
+
+## Telegram Interface
+
+Purpose:
+
+- Provide mobile access to Hermes through the relay architecture.
 
 Allowed actions:
 
-Request status summaries
-Ask Program Brain questions
-Retrieve lab state
-Request reports
-Trigger pre-approved read-only checks
+- Request status summaries.
+- Ask Program Brain questions.
+- Retrieve lab state.
+- Request reports.
+- Trigger pre-approved read-only checks.
 
 Disallowed actions:
 
-Arbitrary shell commands
-Secret retrieval
-Infrastructure mutation
-Git push
-Deployment actions
-Firewall or network changes
+- Arbitrary shell commands.
+- Secret retrieval.
+- Infrastructure mutation.
+- Git push or deployment actions.
+- Firewall, router, VLAN, or network changes.
 
 Approval model:
 
-Telegram requests action.
-Hermes/relay classifies risk.
-User confirms if action exceeds read-only scope.
-Action executes only if approved.
-Result is logged.
-Trust Boundaries
-Boundary 1: Internet to Linode
+1. Telegram submits a request.
+2. Relay and Hermes classify the request.
+3. Read-only approved requests may proceed.
+4. Higher-risk actions require explicit user approval.
+5. Results are logged.
+6. Denied requests are recorded with reason.
 
-Risk:
+## Trust Boundaries
 
-Public exposure
-Bot scans
-Telegram token abuse
-Relay compromise
+### Boundary 1: Internet to Linode
 
-Controls:
+Risks:
 
-Minimal services
-Firewall
-SSH hardening
-Logs
-Least privilege
-Token rotation
-Boundary 2: Linode to Home Lab
-
-Risk:
-
-Relay compromise becoming home compromise
+- Public scanning.
+- Token abuse.
+- Relay compromise.
 
 Controls:
 
-No inbound home port forwarding
-Prefer outbound tunnel from home
-Restricted tunnel permissions
-No broad SSH authority
-Assume relay compromise
-Boundary 3: Home Network to AI VLAN
+- Minimal exposed services.
+- Firewall hardening.
+- SSH hardening.
+- Least privilege.
+- Token rotation.
+- Log review.
 
-Risk:
+### Boundary 2: Linode to Home Lab
 
-Lab compromise affecting personal devices
+Risks:
 
-Controls:
-
-VLAN segmentation
-Firewall rules
-Limited east-west traffic
-Dedicated lab services
-Boundary 4: Hermes to Local Tools
-
-Risk:
-
-Agent overreach
+- Relay compromise becoming home-lab compromise.
 
 Controls:
 
-Authority contract
-Execution tiers
-Approval gates
-Logging
-Revocation paths
-Boundary 5: Program Brain to Retrieval Systems
+- No inbound home port forwarding.
+- Prefer outbound tunnel from home.
+- Restricted tunnel permissions.
+- No broad SSH authority.
+- Assume relay compromise in design.
 
-Risk:
+### Boundary 3: Home Network to AI Lab VLAN
 
-Sensitive information retrieval
-Knowledge poisoning
+Risks:
+
+- Lab compromise affecting personal devices.
+- Personal device compromise affecting lab systems.
 
 Controls:
 
-Ingestion standard
-Retrieval standard
-No secrets
-Human-reviewed knowledge
-Implementation Phases
-Phase 1 - Network Foundation
-Define VLAN plan
-Choose router/firewall approach
-Segment AI lab systems
-Document firewall rules
-Phase 2 - Secure Remote Access
-Deploy Tailscale or equivalent private connectivity
-Validate remote SSH/admin access
-Avoid public inbound exposure
-Phase 3 - Linode Relay
-Deploy minimal relay server
-Harden SSH
-Configure firewall
-Define relay responsibilities
-Phase 4 - Hermes Local Operations
-Install/configure Hermes locally
-Connect Hermes to Program Brain
-Validate read-only retrieval
-Phase 5 - Telegram Interface
-Connect Telegram to relay
-Enforce read-only first mode
-Add approval workflow
-Phase 6 - Local Services
-Add Docker services
-Add RAG/vector search
-Add monitoring/logging
-Success Criteria
+- VLAN or equivalent segmentation.
+- Explicit firewall rules.
+- Limited east-west traffic.
+- Dedicated lab services.
+- Documented access paths.
 
-The target architecture is successful when:
+### Boundary 4: Hermes to Local Tools
 
-Home AI lab is not directly exposed to the internet.
-AI infrastructure runs inside a segmented network zone.
-Remote interaction is possible through Telegram.
-Linode acts only as a controlled relay.
-Hermes can retrieve Program Brain context.
-Risky actions require approval.
-Secrets remain protected.
-All major access paths are documented, logged, and revocable.
-Strategic Statement
+Risks:
 
-PADRO-AI-LABS is not just a documentation repository.
+- Agent overreach.
+- Unsafe automation.
 
-It is intended to become a secure, local-first AI infrastructure lab with controlled remote access, governed agent authority, persistent knowledge, and portfolio-ready implementation evidence.
+Controls:
+
+- Authority contract.
+- Execution tiers.
+- Approval gates.
+- Logging.
+- Revocation paths.
+
+### Boundary 5: Program Brain to Retrieval Systems
+
+Risks:
+
+- Sensitive information retrieval.
+- Knowledge poisoning.
+- Stale operational state.
+
+Controls:
+
+- Knowledge ingestion standard.
+- Retrieval standard.
+- No secrets in knowledge stores.
+- Human-reviewed operational knowledge.
+
+## Implementation Sequence
+
+1. Lab05 - Network Segmentation & Secure Remote Access
+2. Lab06 - Linode Relay Architecture
+3. Lab07 - Hermes Local Operations
+4. Lab08 - Telegram Interface
+5. Lab09 - Docker & Local Services
+6. Lab10 - Program Brain Retrieval/RAG
+7. Lab11 - Telecom Automation Use Case
+8. Lab12 - Portfolio Showcase
+
+## Current Active Phase
+
+Lab05 - Network Segmentation & Secure Remote Access.
+
+The immediate goal is to document and validate the secure local network and remote access design before introducing public relay, Hermes operations, or Telegram control paths.
