@@ -33,3 +33,32 @@ cache/
 logs/*.tmp
 logs/*.log
 logs/*.log
+
+# Credentials and private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+.ssh/
+*C:\\Users\\*.ssh\\*
+
+# PAL cloud-sync transient and credential-bearing state
+pal-cloud-staging/
+**/.pal-cloud-staging/
+scripts/cloud-sync/*.env
+!scripts/cloud-sync/*.example.env
+scripts/cloud-sync/*.conf
+logs/cloud-sync/*.tmp
+logs/cloud-sync/*.lock
+reports/sync/*.tmp
+reports/sync/*.lock
+.rclone-cache/
+
+# Local cloud-ingestion audit state
+logs/cloud-sync/
+reports/sync/*.json
+reports/sync/*-pal-drive-sync.md
+reports/sync/PHASE-3A-*.md
+reports/sync/PAL-INGESTION-PLACEMENT-PLAN-*.md
