@@ -1,16 +1,19 @@
-# CURRENT ROADMAP
+# Current Roadmap
 
-## Current Phase
-Lab04 — Program Brain integration.
+This file is retained as a compatibility pointer.
 
-## This Week
-- Finalize Obsidian workflow.
-- Define command-center files.
-- Confirm Git workflow.
-- Begin using the repo as the single source of truth.
+The authoritative PADRO-AI-LABS implementation roadmap is:
 
-## Next Labs
-- Lab05: AI-assisted documentation workflow.
-- Lab06: Local RAG / retrieval foundation.
-- Lab07: Secure automation environment.
-- Lab08: Telecom automation proof of concept.
+- `roadmap/MASTER-ROADMAP.md`
+
+The current operational state is recorded in:
+
+- `PROJECT-STATE.md`
+
+Lab lifecycle terminology is defined in:
+
+- `roadmap/LAB-LIFECYCLE-STANDARD.md`
+
+Do not maintain a separate lab sequence in this file.
+
+This prevents conflicting roadmap versions from becoming competing sources of authority.

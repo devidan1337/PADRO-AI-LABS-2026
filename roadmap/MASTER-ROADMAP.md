@@ -43,6 +43,10 @@ Primary architecture reference:
 7. Telegram is a constrained command interface, not unrestricted shell access.
 8. Documentation must lead implementation and preserve rollback paths.
 
+Lab lifecycle terminology is governed by:
+
+- roadmap/LAB-LIFECYCLE-STANDARD.md
+
 ## Current Program Status
 
 Current Active Lab:
@@ -132,7 +136,7 @@ Representative deliverables:
 
 ### Lab04 - Program Brain/Knowledge
 
-Status: COMPLETE
+Status: BASELINE COMPLETE — LIVING ARCHITECTURE
 
 Purpose:
 
@@ -226,20 +230,43 @@ Success criteria:
 - Relay compromise does not equal home-lab compromise.
 - Relay does not hold broad home-lab authority.
 
+## Roadmap Maturity Note — Labs 07 Through 11
+
+The strategic purposes of Labs 07 through 11 are retained.
+
+Their detailed designs, implementation order, service boundaries, model choices, and worker assignments remain provisional pending dependency validation.
+
+Expected influences include:
+
+- Hermes deployment findings;
+- Program Brain retrieval readiness;
+- Docker and service-placement requirements;
+- SOL and other local-model evaluations;
+- relay and Telegram architecture;
+- API availability;
+- security validation;
+- hardware constraints;
+- telecom, OSINT, and incident-response use-case development.
+
+Changes to implementation detail do not invalidate the accepted strategic purposes of these labs.
+
 ### Lab07 - Hermes Local Operations
 
 Status: PLANNED
 
 Purpose:
 
-- Deploy Hermes as a local operations assistant before exposing any remote control path.
+- Deploy Hermes as PAL's local, Program-Brain-aware assessment and orchestration interface before exposing any remote control path.
 
 Focus:
 
 - Local Hermes service model.
+- Internal PAL assessment and context restoration.
 - Program Brain access.
 - Retrieval validation.
 - Tool permission tiers.
+- Governed task routing to Codex, Claude Code, approved local models, and specialized workers.
+- SOL or other approved local/private model integration.
 - Approval boundaries.
 - Local-only operations first.
 
@@ -258,9 +285,13 @@ Planned deliverables:
 Success criteria:
 
 - Hermes can retrieve approved Program Brain context.
+- Hermes can restore PAL project state and identify relevant next actions.
+- Hermes can prepare and route bounded worker tasks.
 - Hermes does not access secrets.
+- Hermes does not approve its own higher-risk actions.
 - Hermes does not perform destructive actions without approval.
 - Hermes runs locally before Telegram integration.
+- ChatGPT is not required as an intermediary for normal internal PAL operations.
 
 ### Lab08 - Telegram Interface
 

@@ -22,6 +22,49 @@ Humans approve knowledge.
 
 ---
 
+# Operating Context Boundary
+
+ChatGPT and Hermes provide different access paths to PAL reasoning support.
+
+## ChatGPT Context
+
+ChatGPT primarily supports:
+
+- external and mobile strategy;
+- teaching and technical explanation;
+- public research;
+- sanitized architectural review;
+- independent second opinions;
+- preparation of bounded work packages.
+
+ChatGPT is not required to remain in the normal internal PAL workflow.
+
+## Hermes Context
+
+Hermes primarily supports:
+
+- local PAL assessment;
+- Program Brain retrieval;
+- context restoration;
+- governed orchestration;
+- task routing;
+- collection of worker results;
+- preparation of decision packages for Dan.
+
+Hermes may use SOL or another approved local or private model where that model has been validated for the assigned task.
+
+## Shared Boundary
+
+Neither ChatGPT nor Hermes owns PAL knowledge or final authority.
+
+Program Brain remains authoritative for approved PAL knowledge.
+
+Dan remains the approval authority.
+
+ChatGPT may be used as an optional independent-review path when a significant internal Hermes assessment requires a second opinion.
+
+---
+
 # Hermes Responsibilities
 
 Hermes may:
@@ -158,6 +201,16 @@ Hermes may recommend:
 * Documentation updates
 * Research tasks
 * Project actions
+
+Hermes may also recommend or coordinate:
+
+- bounded Codex implementation tasks;
+- bounded Claude Code review tasks;
+- approved local-model analysis;
+- specialized worker tasks;
+- human-review packages.
+
+Task coordination does not grant Hermes authority to approve or execute higher-risk actions.
 
 Hermes should not perform destructive actions without explicit authorization.
 
