@@ -1,6 +1,6 @@
 # Phase 3D-W1A — Human Private Storage Architecture Decisions
 
-> **architecture decision: `APPROVED`**  
+> **architecture decision: `APPROVED`**
 > **implementation boundary: `NOT AUTHORIZED`**
 
 ## 1. Authority and scope

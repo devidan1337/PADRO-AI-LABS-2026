@@ -1,6 +1,6 @@
 # Phase 3D-W1R — Private Storage Architecture and Encryption Review
 
-> **verdict: `READY_FOR_OWNER_ARCHITECTURE DECISION`**  
+> **verdict: `READY_FOR_OWNER_ARCHITECTURE DECISION`**
 > **review_scope: DESIGN ONLY — NO IMPLEMENTATION AUTHORIZED**
 
 ## 1. Authority, facts, and boundary
